@@ -1,0 +1,47 @@
+{
+  "split": "dev",
+  "cases": 17,
+  "provider_errors": 0,
+  "tool_use": {
+    "n": 17,
+    "N": 17
+  },
+  "grounded_answer": {
+    "0": 15,
+    "1": 0,
+    "2": 0,
+    "N": 15,
+    "mean": 0.0
+  },
+  "citation_validity": {
+    "n": 0,
+    "N": 1
+  },
+  "answer_citation_coverage": {
+    "n": 1,
+    "N": 1
+  },
+  "abstention": {
+    "n": 2,
+    "N": 2
+  },
+  "false_abstention": {
+    "n": 14,
+    "N": 15
+  },
+  "execution_metadata": {
+    "model": "claude-sonnet-5-5",
+    "mode": "dense",
+    "context_budget": 800,
+    "total_calls": 77,
+    "mean_calls_per_case": 4.53,
+    "total_latency_seconds": 198.635,
+    "mean_latency_seconds": 11.684,
+    "total_input_tokens": 118558,
+    "total_output_tokens": 11911,
+    "mean_tokens_per_case": 7674.6,
+    "total_cost_usd": 0.534339,
+    "mean_cost_usd": 0.031432,
+    "provider_errors": 0
+  }
+}

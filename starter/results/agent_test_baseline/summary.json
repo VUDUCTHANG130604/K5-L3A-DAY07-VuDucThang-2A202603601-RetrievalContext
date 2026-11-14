@@ -1,0 +1,47 @@
+{
+  "split": "test",
+  "cases": 7,
+  "provider_errors": 0,
+  "tool_use": {
+    "n": 7,
+    "N": 7
+  },
+  "grounded_answer": {
+    "0": 5,
+    "1": 0,
+    "2": 0,
+    "N": 5,
+    "mean": 0.0
+  },
+  "citation_validity": {
+    "n": 0,
+    "N": 1
+  },
+  "answer_citation_coverage": {
+    "n": 1,
+    "N": 1
+  },
+  "abstention": {
+    "n": 2,
+    "N": 2
+  },
+  "false_abstention": {
+    "n": 4,
+    "N": 5
+  },
+  "execution_metadata": {
+    "model": "claude-haiku-5-5",
+    "mode": "dense",
+    "context_budget": 800,
+    "total_calls": 18,
+    "mean_calls_per_case": 2.57,
+    "total_latency_seconds": 27.997,
+    "mean_latency_seconds": 4.0,
+    "total_input_tokens": 24464,
+    "total_output_tokens": 3157,
+    "mean_tokens_per_case": 3945.9,
+    "total_cost_usd": 0.0322,
+    "mean_cost_usd": 0.0046,
+    "provider_errors": 0
+  }
+}

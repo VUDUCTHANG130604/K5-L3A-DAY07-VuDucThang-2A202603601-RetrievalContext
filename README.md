@@ -1,4 +1,4 @@
-# Day 7 — Agentic RAG
+  # Day 7 — Agentic RAG
 
 **Bài cá nhân · Python 3.11+ · tiếp nối Day 6**
 
@@ -31,3 +31,50 @@ Index một tài liệu thực tế từ **100 trang** có bảng, ảnh và bi�
 ![Các bước thử nghiệm trên dev và đánh giá trên test](assets/experiment-loop.svg)
 
 Nộp code, cách chạy, cấu hình, benchmark, trace và [báo cáo](report/individual/MSSV_HoTen.md). Thời gian ở [checkpoints](CHECKPOINTS.md) là gợi ý, có thể điều chỉnh theo lớp và phạm vi thử nghiệm.
+
+## Giao diện benchmark
+
+Mở dashboard local để xem kết quả retrieval, metrics agent và trace theo từng câu hỏi:
+
+```bash
+python scripts/serve_dashboard.py
+```
+
+Sau đó truy cập `http://127.0.0.1:8765`. Dashboard chỉ đọc dữ liệu trong `data/` và `starter/results/`.
+
+
+---
+
+## Kết quả và Hướng dẫn chạy nhanh (Bản nộp của Vũ Đức Thắng - 2A202603601)
+
+### 1. Báo cáo cá nhân
+Xem báo cáo đầy đủ số liệu tại: [report/individual/2A202603601_VuDucThang.md](report/individual/2A202603601_VuDucThang.md)
+
+### 2. Các lệnh chạy tái lập thực nghiệm
+
+* **Chạy kiểm tra toàn bộ 15 Unit Tests (chạy offline):**
+  ```bash
+  python -m unittest discover -s tests -v
+  ```
+
+* **Đánh giá 3 phương pháp Retrieval (Dense, BM25, Query Transformation - chạy offline):**
+  ```bash
+  python src/retrieval/evaluator.py dev 1200
+  python src/retrieval/evaluator.py test 1200
+  ```
+
+* **Tái lập Artifacts Baseline Test (Dense top-k=3, budget=800 - chạy offline):**
+  ```bash
+  python scripts/generate_test_baseline.py
+  ```
+
+* **Demo so sánh trực diện 3 phương pháp retrieval trên 1 câu hỏi y khoa (chạy offline):**
+  ```bash
+  python scripts/demo_quick_test.py
+  ```
+
+* **Chạy Agent Benchmark với Claude Model thật (Yêu cầu API Key):**
+  Tạo file `starter/.env` từ `starter/.env.example`, điền `ANTHROPIC_API_KEY` của bạn rồi chạy:
+  ```bash
+  python scripts/run_agent_benchmark.py
+  ```

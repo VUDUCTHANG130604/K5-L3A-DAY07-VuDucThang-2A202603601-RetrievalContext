@@ -1,0 +1,301 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "Viêm phế quản cấp được định nghĩa như thế nào trong hướng dẫn của Bộ Y tế?",
+    "gold": [
+      {
+        "source_id": "byt-benh-ho-hap-2012",
+        "page": 30,
+        "evidence": "Viêm phế quản cấp là tình trạng viêm nhiễm cấp tính củ a niêm mạc phế\nquản ở người trưỡc đó không có tổn thương"
+      }
+    ],
+    "expected_answer": "Viêm phế quản cấp là tình trạng viêm nhiễm cấp tính của niêm mạc phế quản ở người trước đó không có tổn thương.",
+    "filter": {
+      "disease": "Viêm phế quản cấp"
+    }
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Nguyên tắc điều trị ở người lớn bị viêm phế quản cấp đơn thuần là gì?",
+    "gold": [
+      {
+        "source_id": "byt-benh-ho-hap-2012",
+        "page": 32,
+        "evidence": "ở người lớn viêm phế quản cấp đơn thuần có thể tứ khỏi không cần điều trị"
+      }
+    ],
+    "expected_answer": "Ở người lớn viêm phế quản cấp đơn thuần có thể tự khỏi không cần điều trị.",
+    "filter": {
+      "disease": "Viêm phế quản cấp"
+    }
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Biện pháp phòng ngừa nào được khuyến cáo mạnh cho người bệnh có bệnh phổi mạn tính?",
+    "gold": [
+      {
+        "source_id": "byt-benh-ho-hap-2012",
+        "page": 33,
+        "evidence": "Tiêm vaccin phòng cúm, phế cầu, đặc biệt khuyến cáo mạnh cho những\nbệnh nhân có bệnh phổi mạn tính"
+      }
+    ],
+    "expected_answer": "Tiêm vaccin phòng cúm và phế cầu, đặc biệt khuyến cáo mạnh cho những bệnh nhân có bệnh phổi mạn tính."
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Viêm phổi mắc phải ở cộng đồng là tình trạng bệnh lý như thế nào?",
+    "gold": [
+      {
+        "source_id": "byt-benh-ho-hap-2012",
+        "page": 34,
+        "evidence": "Viêm phổi mắc phải ở cộng đồng là tình trạng nhiễm khuẩn của nhu mô\nphổi xảy ra ở ngoài bệnh viện"
+      }
+    ],
+    "expected_answer": "Viêm phổi mắc phải ở cộng đồng là tình trạng nhiễm khuẩn của nhu mô phổi xảy ra ở ngoài bệnh viện.",
+    "filter": {
+      "disease": "Viêm phổi cộng đồng"
+    }
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Hình ảnh tổn thương điển hình của viêm phổi thùy trên X-quang phổi là gì?",
+    "gold": [
+      {
+        "source_id": "byt-benh-ho-hap-2012",
+        "page": 35,
+        "evidence": "đám mờ hình tam giác đỉnh ở phía rốn phổi , đáy ở phía\nngoài"
+      }
+    ],
+    "expected_answer": "Đám mờ hình tam giác đỉnh ở phía rốn phổi, đáy ở phía ngoài hoặc các đám mờ có hình phế quản hơi."
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Nguyên tắc lựa chọn điều trị nguyên nhân trong viêm phổi mắc phải ở cộng đồng là gì?",
+    "gold": [
+      {
+        "source_id": "byt-benh-ho-hap-2012",
+        "page": 37,
+        "evidence": "Điều trị nguyên nhân: lứa chọn kháng sinh theo căn n guyên gây bệnh,\nnhưng ban đầu thường theo kinh nghiệm lâm sàng"
+      }
+    ],
+    "expected_answer": "Điều trị nguyên nhân: lựa chọn kháng sinh theo căn nguyên gây bệnh, nhưng ban đầu thường theo kinh nghiệm lâm sàng."
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Liều dùng của cefotaxim trong điều trị viêm phổi cộng đồng là bao nhiêu?",
+    "gold": [
+      {
+        "source_id": "byt-benh-ho-hap-2012",
+        "page": 38,
+        "evidence": "cefotaxim 1 g x 3 lần/ngày hoặc\nceftriaxon 1 g x 3 lần/ngày"
+      }
+    ],
+    "expected_answer": "Cefotaxim 1 g x 3 lần/ngày hoặc ceftriaxon 1 g x 3 lần/ngày."
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Viêm phổi mắc phải ở bệnh viện (HAP) được định nghĩa xuất hiện vào thời điểm nào?",
+    "gold": [
+      {
+        "source_id": "byt-benh-ho-hap-2012",
+        "page": 40,
+        "evidence": "Viêm phổi mắc phải ở bệnh viện (Hospital acquired pneumoni a: HAP) là\nviêm phổi xuất hiện sau nhập viện 48 giờ"
+      }
+    ],
+    "expected_answer": "Viêm phổi mắc phải ở bệnh viện (HAP) là viêm phổi xuất hiện sau nhập viện 48 giờ.",
+    "filter": {
+      "disease": "Viêm phổi bệnh viện"
+    }
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Những yếu tố nguy cơ nào làm tăng khả năng mắc viêm phổi bệnh viện?",
+    "gold": [
+      {
+        "source_id": "byt-benh-ho-hap-2012",
+        "page": 41,
+        "evidence": "Tuổi > 70.\n+ Cõ bệnh phổi mạn tính kèm theo như: BPTNMT, giãn phế quản"
+      }
+    ],
+    "expected_answer": "Tuổi trên 70, có bệnh phổi mạn tính kèm theo như BPTNMT, giãn phế quản.",
+    "filter": {
+      "disease": "Viêm phổi bệnh viện"
+    }
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Chỉ định dùng thuốc hạ sốt paracetamol trong viêm phổi bệnh viện như thế nào?",
+    "gold": [
+      {
+        "source_id": "byt-benh-ho-hap-2012",
+        "page": 47,
+        "evidence": "Hạ sốt: dùng paracetamol 0,5 g x 1 viên/lần khi nhiệt độ > 38,50C"
+      }
+    ],
+    "expected_answer": "Dùng paracetamol 0,5 g x 1 viên/lần khi nhiệt độ trên 38,5 độ C."
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "Áp xe phổi được định nghĩa như thế nào trong hướng dẫn của Bộ Y tế?",
+    "gold": [
+      {
+        "source_id": "byt-benh-ho-hap-2012",
+        "page": 53,
+        "evidence": "áp xe phổi là ổ mủ trong nhu mô phổi do viêm nhiễm hoại tử cấp tính không\nphải lao, sau khi ộc mủ tạo thành hang"
+      }
+    ],
+    "expected_answer": "Áp xe phổi là ổ mủ trong nhu mô phổi do viêm nhiễm hoại tử cấp tính không phải lao, sau khi ộc mủ tạo thành hang.",
+    "filter": {
+      "disease": "Áp xe phổi"
+    }
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Các tác nhân vi khuẩn thường gặp gây áp xe phổi bao gồm những loại nào?",
+    "gold": [
+      {
+        "source_id": "byt-benh-ho-hap-2012",
+        "page": 54,
+        "evidence": "Các tác nhân gây áp xe phổi thường là Staphylococcus aureus, Klebsiella\npneumoniae, Pseudomonas aeruginosa"
+      }
+    ],
+    "expected_answer": "Staphylococcus aureus, Klebsiella pneumoniae, Pseudomonas aeruginosa."
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Liều dùng ceftazidim khi nghi ngờ áp xe phổi do Pseudomonas aeruginosa là bao nhiêu?",
+    "gold": [
+      {
+        "source_id": "byt-benh-ho-hap-2012",
+        "page": 56,
+        "evidence": "Nếu nghi ngờ áp xe phổi do Pseudomonas aruginosa: ceftazidim 3 - 6\ng/ngày"
+      }
+    ],
+    "expected_answer": "Ceftazidim 3 - 6 g/ngày kết hợp với kháng sinh khác."
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "Đặc trưng bệnh lý của bệnh phổi tắc nghẽn mạn tính (BPTNMT, COPD) là gì?",
+    "gold": [
+      {
+        "source_id": "byt-benh-ho-hap-2012",
+        "page": 58,
+        "evidence": "Bệnh phổi tắc nghẽn mạn tính (BPTNMT, COPD) là bệnh lý hô hấp mạn\ntính có thể dự phòng và điều trị được"
+      }
+    ],
+    "expected_answer": "BPTNMT là bệnh lý hô hấp mạn tính có thể dự phòng và điều trị được.",
+    "filter": {
+      "disease": "COPD ổn định"
+    }
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Corticoid được chỉ định trong điều trị bệnh phổi tắc nghẽn mạn tính khi nào?",
+    "gold": [
+      {
+        "source_id": "byt-benh-ho-hap-2012",
+        "page": 63,
+        "evidence": "Corticoid được chỉ định khi bệnh nhân BPTNMT giai đoạn nặng (FEV1 <\n50%), có đợt cấp lặp đi lặp lại"
+      }
+    ],
+    "expected_answer": "Khi bệnh nhân BPTNMT giai đoạn nặng (FEV1 < 50%), có đợt cấp lặp đi lặp lại.",
+    "filter": {
+      "disease": "COPD ổn định"
+    }
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "Đợt cấp bệnh phổi tắc nghẽn mạn tính (BPTNMT) được định nghĩa như thế nào?",
+    "gold": [
+      {
+        "source_id": "byt-benh-ho-hap-2012",
+        "page": 68,
+        "evidence": "Đợt cấp bệnh phổi tắc nghẽn mạn tính (BPTNMT, COPD) là tình trạng\nthay đổi cấp tính của các biểu hiện lâm sàng: khõ thở t ăng, ho tăng, khạc đờm\ntăng"
+      }
+    ],
+    "expected_answer": "Là tình trạng thay đổi cấp tính của các biểu hiện lâm sàng: khó thở tăng, ho tăng, khạc đờm tăng.",
+    "filter": {
+      "disease": "Đợt cấp COPD"
+    }
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "Tiêu chuẩn Anthonisen xác định đợt cấp BPTNMT gồm những triệu chứng nào?",
+    "gold": [
+      {
+        "source_id": "byt-benh-ho-hap-2012",
+        "page": 69,
+        "evidence": "Tiêu chuẩn Anthonisen.\nư Khõ thở tăng.\nư Khạc đờm tăng.\nư Thay đổi màu sắc của đờm"
+      }
+    ],
+    "expected_answer": "Khó thở tăng, khạc đờm tăng, thay đổi màu sắc của đờm.",
+    "filter": {
+      "disease": "Đợt cấp COPD"
+    }
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "Nguyên tắc điều trị đợt cấp BPTNMT tại nhà đối với thuốc giãn phế quản và corticoid là gì?",
+    "gold": [
+      {
+        "source_id": "byt-benh-ho-hap-2012",
+        "page": 71,
+        "evidence": "Tăng tối đa điều trị các thuốc giãn phế quản và corticoid dạng khí dung"
+      }
+    ],
+    "expected_answer": "Tăng tối đa điều trị các thuốc giãn phế quản và corticoid dạng khí dung.",
+    "filter": {
+      "disease": "Đợt cấp COPD"
+    }
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "Mục tiêu SpO2 và lưu lượng thở oxy tại nhà trong đợt cấp BPTNMT là bao nhiêu?",
+    "gold": [
+      {
+        "source_id": "byt-benh-ho-hap-2012",
+        "page": 71,
+        "evidence": "Thở oxy 1-3 lít/phút, duy trì SpO2 ở mực 90-92"
+      }
+    ],
+    "expected_answer": "Thở oxy 1-3 lít/phút, duy trì SpO2 ở mức 90-92%.",
+    "filter": {
+      "disease": "Đợt cấp COPD"
+    }
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "Chỉ định nhập viện điều trị đối với bệnh nhân đợt cấp BPTNMT khi nào?",
+    "gold": [
+      {
+        "source_id": "byt-benh-ho-hap-2012",
+        "page": 75,
+        "evidence": "Chỉ định nhập viện điều trị với tất cả những trường hợp đợt cấp BPTNMT\nmực độ nặng, rất nặng hoặc có đe dọa cuộc sống"
+      }
+    ],
+    "expected_answer": "Chỉ định nhập viện với tất cả trường hợp đợt cấp BPTNMT mức độ nặng, rất nặng hoặc có đe dọa cuộc sống.",
+    "filter": {
+      "disease": "Đợt cấp COPD"
+    }
+  }
+]

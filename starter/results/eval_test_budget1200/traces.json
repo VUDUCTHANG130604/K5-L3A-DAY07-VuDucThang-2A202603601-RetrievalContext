@@ -1,0 +1,1306 @@
+{
+  "dense": [
+    {
+      "query_id": "q16",
+      "split": "test",
+      "question": "Đợt cấp bệnh phổi tắc nghẽn mạn tính (BPTNMT) được định nghĩa như thế nào?",
+      "method": "dense",
+      "top_k": 3,
+      "budget": 1200,
+      "gold": [
+        {
+          "source_id": "byt-benh-ho-hap-2012",
+          "page": 68,
+          "evidence": "Đợt cấp bệnh phổi tắc nghẽn mạn tính (BPTNMT, COPD) là tình trạng\nthay đổi cấp tính của các biểu hiện lâm sàng: khõ thở t ăng, ho tăng, khạc đờm\ntăng"
+        }
+      ],
+      "results": [
+        {
+          "id": "paragraph-p69-0000",
+          "text": "hướng dẫn chẩn đoán và điều trị bệnh hô hấp 69\n2.2. Các đánh giá ban đầu khi nghi có đợt cấp BPTNMT\nTiến hành làm các xét nghiệm (nếu có thể): chụp X-quang phổi, đo SpO2,\nđo PEF hoặc chức năng hô hấp.\n2.3. Chẩn đoán xác định đợt cấp BPTNMT\nTiêu chuẩn Anthonisen.\nư Khõ thở tăng.\nư Khạc đờm tăng.\nư Thay đổi màu sắc của đờm.\n2.4. Đánh giá mực độ nặng của bệnh\nCác yếu tố làm tăng mực độ nặng của đợt cấp BPTNMT tại nhà.\nư Rối loạn ý thức.\nư Cõ ≥ 3 đợt cấp BPTNMT trong năm trưỡc.\nư Chỉ số khối cơ thể ≤ 20.\nư Các triệu chứng nặng lên râ hoặc có rối loạn dấu hiệu chức năng sống.\nư Bệnh mạn tính kèm theo (bệnh tim thiếu máu cục bộ, suy tim sung\nhuyết, viêm phổi, đái tháo đường, suy thận, suy gan).\nư Hoạt động thể lức kém.\nư Không có trợ giúp xã hội.\nư Đã được chẩn đoán BPTNMT mực độ nặng hoặc rất n",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 69,
+          "metadata": {
+            "disease": "Đợt cấp COPD",
+            "page": 69,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 0,
+            "char_start": 0,
+            "char_end": 800,
+            "strategy": "B"
+          },
+          "score": 0.827093780040741,
+          "retrieval_method": "dense",
+          "hit": false
+        },
+        {
+          "id": "paragraph-p61-0000",
+          "text": "hướng dẫn chẩn đoán và điều trị bệnh hô hấp 61\nMức độ tấc nghẽn đường thở\n2.3.3. Chẩn đoán mực độ nặng của bệnh theo chức năng hô hấp và điểm triệu\nchứng lâm sàng\nBảng 9.3: Mực độ nặng BPTNMT theo chức năng thông khí, triệu chứng lâm sàng\nKhi đánh giá nguy cơ chọn nhõm nguy cơ cao nhất\ntheo tiêu chuẩn của GOLD hoặc tiền sử đợt cấp\n\n(C)\n\n(D)\n\n(A)\n\n(B)",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 61,
+          "metadata": {
+            "disease": "COPD ổn định",
+            "page": 61,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 0,
+            "char_start": 0,
+            "char_end": 352,
+            "strategy": "B"
+          },
+          "score": 0.8190124034881592,
+          "retrieval_method": "dense",
+          "hit": false
+        },
+        {
+          "id": "paragraph-p74-0002",
+          "text": "ư Giãn phế quản đợt bội nhiễm: tiền sử ho khạc đờm kéo dài, kh ám phổi\nthấy ran ẩm, nổ khu trú hoặc lan tóa hai bên phổi. Chẩn đoán phân biệt bằng\nchụp cắt lỡp vi tính ngức lỡp móng, độ phân giải cao.\nư Tràn khí màng phổi: đau ngức đột ngột, khõ thở tăng. Khá m phổi thấy\ntam chứng Gaillard bên tràn khí. Chẩn đoán xác định b ằng chụp X-quang phổi\nthấy hình tràn khí màng phổi.\n2.4. Chẩn đoán mực độ\nBảng 11.2: Phân loại mực độ nặng của đợt cấp BPTNMT theo Burge S (2003)\nMực độ Tiêu chí\nNhẹ Cần dùng kháng sinh, không cần corticoid toàn t hân. Không có dấu hiệu suy\nhô hấp trên lâm sàng và/hoặc khí máu.\nTrung bình Đợt cấp cần điều trị corticoid đường tĩn h mạch, có hoặc không kháng sinh.\nKhông có dấu hiệu suy hô hấp trên lâm sàng và/hoặc khí máu.\nNặng Suy hô hấp với giảm oxy máu, nhưng không tăn",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 74,
+          "metadata": {
+            "disease": "Đợt cấp COPD",
+            "page": 74,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 2,
+            "char_start": 1220,
+            "char_end": 2020,
+            "strategy": "B"
+          },
+          "score": 0.7999638915061951,
+          "retrieval_method": "dense",
+          "hit": false
+        }
+      ],
+      "context": "[paragraph-p69-0000 | Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf | page 69]\nhướng dẫn chẩn đoán và điều trị bệnh hô hấp 69\n2.2. Các đánh giá ban đầu khi nghi có đợt cấp BPTNMT\nTiến hành làm các xét nghiệm (nếu có thể): chụp X-quang phổi, đo SpO2,\nđo PEF hoặc chức năng hô hấp.\n2.3. Chẩn đoán xác định đợt cấp BPTNMT\nTiêu chuẩn Anthonisen.\nư Khõ thở tăng.\nư Khạc đờm tăng.\nư Thay đổi màu sắc của đờm.\n2.4. Đánh giá mực độ nặng của bệnh\nCác yếu tố làm tăng mực độ nặng của đợt cấp BPTNMT tại nhà.\nư Rối loạn ý thức.\nư Cõ ≥ 3 đợt cấp BPTNMT trong năm trưỡc.\nư Chỉ số khối cơ thể ≤ 20.\nư Các triệu chứng nặng lên râ hoặc có rối loạn dấu hiệu chức năng sống.\nư Bệnh mạn tính kèm theo (bệnh tim thiếu máu cục bộ, suy tim sung\nhuyết, viêm phổi, đái tháo đường, suy thận, suy gan).\nư Hoạt động thể lức kém.\nư Không có trợ giúp xã hội.\nư Đã được chẩn đoán BPTNMT mực độ nặng hoặc rất n",
+      "context_ids": [
+        "paragraph-p69-0000"
+      ],
+      "hit1": false,
+      "hit3": false,
+      "context_hit": false,
+      "latency_ms": 175.99989999871468
+    },
+    {
+      "query_id": "q17",
+      "split": "test",
+      "question": "Tiêu chuẩn Anthonisen xác định đợt cấp BPTNMT gồm những triệu chứng nào?",
+      "method": "dense",
+      "top_k": 3,
+      "budget": 1200,
+      "gold": [
+        {
+          "source_id": "byt-benh-ho-hap-2012",
+          "page": 69,
+          "evidence": "Tiêu chuẩn Anthonisen.\nư Khõ thở tăng.\nư Khạc đờm tăng.\nư Thay đổi màu sắc của đờm"
+        }
+      ],
+      "results": [
+        {
+          "id": "paragraph-p69-0000",
+          "text": "hướng dẫn chẩn đoán và điều trị bệnh hô hấp 69\n2.2. Các đánh giá ban đầu khi nghi có đợt cấp BPTNMT\nTiến hành làm các xét nghiệm (nếu có thể): chụp X-quang phổi, đo SpO2,\nđo PEF hoặc chức năng hô hấp.\n2.3. Chẩn đoán xác định đợt cấp BPTNMT\nTiêu chuẩn Anthonisen.\nư Khõ thở tăng.\nư Khạc đờm tăng.\nư Thay đổi màu sắc của đờm.\n2.4. Đánh giá mực độ nặng của bệnh\nCác yếu tố làm tăng mực độ nặng của đợt cấp BPTNMT tại nhà.\nư Rối loạn ý thức.\nư Cõ ≥ 3 đợt cấp BPTNMT trong năm trưỡc.\nư Chỉ số khối cơ thể ≤ 20.\nư Các triệu chứng nặng lên râ hoặc có rối loạn dấu hiệu chức năng sống.\nư Bệnh mạn tính kèm theo (bệnh tim thiếu máu cục bộ, suy tim sung\nhuyết, viêm phổi, đái tháo đường, suy thận, suy gan).\nư Hoạt động thể lức kém.\nư Không có trợ giúp xã hội.\nư Đã được chẩn đoán BPTNMT mực độ nặng hoặc rất n",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 69,
+          "metadata": {
+            "disease": "Đợt cấp COPD",
+            "page": 69,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 0,
+            "char_start": 0,
+            "char_end": 800,
+            "strategy": "B"
+          },
+          "score": 0.8340562582015991,
+          "retrieval_method": "dense",
+          "hit": true
+        },
+        {
+          "id": "paragraph-p61-0000",
+          "text": "hướng dẫn chẩn đoán và điều trị bệnh hô hấp 61\nMức độ tấc nghẽn đường thở\n2.3.3. Chẩn đoán mực độ nặng của bệnh theo chức năng hô hấp và điểm triệu\nchứng lâm sàng\nBảng 9.3: Mực độ nặng BPTNMT theo chức năng thông khí, triệu chứng lâm sàng\nKhi đánh giá nguy cơ chọn nhõm nguy cơ cao nhất\ntheo tiêu chuẩn của GOLD hoặc tiền sử đợt cấp\n\n(C)\n\n(D)\n\n(A)\n\n(B)",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 61,
+          "metadata": {
+            "disease": "COPD ổn định",
+            "page": 61,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 0,
+            "char_start": 0,
+            "char_end": 352,
+            "strategy": "B"
+          },
+          "score": 0.7798371315002441,
+          "retrieval_method": "dense",
+          "hit": false
+        },
+        {
+          "id": "paragraph-p74-0002",
+          "text": "ư Giãn phế quản đợt bội nhiễm: tiền sử ho khạc đờm kéo dài, kh ám phổi\nthấy ran ẩm, nổ khu trú hoặc lan tóa hai bên phổi. Chẩn đoán phân biệt bằng\nchụp cắt lỡp vi tính ngức lỡp móng, độ phân giải cao.\nư Tràn khí màng phổi: đau ngức đột ngột, khõ thở tăng. Khá m phổi thấy\ntam chứng Gaillard bên tràn khí. Chẩn đoán xác định b ằng chụp X-quang phổi\nthấy hình tràn khí màng phổi.\n2.4. Chẩn đoán mực độ\nBảng 11.2: Phân loại mực độ nặng của đợt cấp BPTNMT theo Burge S (2003)\nMực độ Tiêu chí\nNhẹ Cần dùng kháng sinh, không cần corticoid toàn t hân. Không có dấu hiệu suy\nhô hấp trên lâm sàng và/hoặc khí máu.\nTrung bình Đợt cấp cần điều trị corticoid đường tĩn h mạch, có hoặc không kháng sinh.\nKhông có dấu hiệu suy hô hấp trên lâm sàng và/hoặc khí máu.\nNặng Suy hô hấp với giảm oxy máu, nhưng không tăn",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 74,
+          "metadata": {
+            "disease": "Đợt cấp COPD",
+            "page": 74,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 2,
+            "char_start": 1220,
+            "char_end": 2020,
+            "strategy": "B"
+          },
+          "score": 0.7643899321556091,
+          "retrieval_method": "dense",
+          "hit": false
+        }
+      ],
+      "context": "[paragraph-p69-0000 | Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf | page 69]\nhướng dẫn chẩn đoán và điều trị bệnh hô hấp 69\n2.2. Các đánh giá ban đầu khi nghi có đợt cấp BPTNMT\nTiến hành làm các xét nghiệm (nếu có thể): chụp X-quang phổi, đo SpO2,\nđo PEF hoặc chức năng hô hấp.\n2.3. Chẩn đoán xác định đợt cấp BPTNMT\nTiêu chuẩn Anthonisen.\nư Khõ thở tăng.\nư Khạc đờm tăng.\nư Thay đổi màu sắc của đờm.\n2.4. Đánh giá mực độ nặng của bệnh\nCác yếu tố làm tăng mực độ nặng của đợt cấp BPTNMT tại nhà.\nư Rối loạn ý thức.\nư Cõ ≥ 3 đợt cấp BPTNMT trong năm trưỡc.\nư Chỉ số khối cơ thể ≤ 20.\nư Các triệu chứng nặng lên râ hoặc có rối loạn dấu hiệu chức năng sống.\nư Bệnh mạn tính kèm theo (bệnh tim thiếu máu cục bộ, suy tim sung\nhuyết, viêm phổi, đái tháo đường, suy thận, suy gan).\nư Hoạt động thể lức kém.\nư Không có trợ giúp xã hội.\nư Đã được chẩn đoán BPTNMT mực độ nặng hoặc rất n",
+      "context_ids": [
+        "paragraph-p69-0000"
+      ],
+      "hit1": true,
+      "hit3": true,
+      "context_hit": true,
+      "latency_ms": 159.3855999999505
+    },
+    {
+      "query_id": "q18",
+      "split": "test",
+      "question": "Nguyên tắc điều trị đợt cấp BPTNMT tại nhà đối với thuốc giãn phế quản và corticoid là gì?",
+      "method": "dense",
+      "top_k": 3,
+      "budget": 1200,
+      "gold": [
+        {
+          "source_id": "byt-benh-ho-hap-2012",
+          "page": 71,
+          "evidence": "Tăng tối đa điều trị các thuốc giãn phế quản và corticoid dạng khí dung"
+        }
+      ],
+      "results": [
+        {
+          "id": "paragraph-p70-0000",
+          "text": "Hướng dẫn chẩn đoán và điều trị bệnh hô hấp 70\n3. Điều trị đợt cấp bptnmt tại nhà\n3.1. Hưỡng xử trí đợt cấp BPTNMT\nSơ đồ 1: Hướng dẫn xử trí đợt cấp BPTNMT\n\nBắt đầu hoặc gia tăng thuốc\ngiãn phế quản\nĐánh giá lại trong 1-3 giờ\nCải thiện triệu chứng\nKhông cải thiện triệu chứng\nTiếp tục điều trị\nGiảm liều thuốc khi có thể\nThêm corticoid uống\nĐánh giá lại trong 1-3 giờ\nTriệu chứng nặng thêm\nNhập viện Xem xét điều trị dài\nhạn\nKhi đã xác định đợt cấp\nhttps://vnras.com/",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 70,
+          "metadata": {
+            "disease": "Đợt cấp COPD",
+            "page": 70,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 0,
+            "char_start": 0,
+            "char_end": 467,
+            "strategy": "B"
+          },
+          "score": 0.866862416267395,
+          "retrieval_method": "dense",
+          "hit": false
+        },
+        {
+          "id": "paragraph-p66-0002",
+          "text": "hun\nhít, sử dụng các thuốc giãn phế quản, corticoid.\n4. Tiên lượng và phòng bệnh\nư BPTNMT tiến triển nặng dần không hồi phục, vì vậy, cần điều trị sỡm,\ntích cức để bệnh tiến triển chậm.\nhttps://vnras.com/",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 66,
+          "metadata": {
+            "disease": "COPD ổn định",
+            "page": 66,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 2,
+            "char_start": 1180,
+            "char_end": 1384,
+            "strategy": "B"
+          },
+          "score": 0.8490750789642334,
+          "retrieval_method": "dense",
+          "hit": false
+        },
+        {
+          "id": "paragraph-p63-0000",
+          "text": "hướng dẫn chẩn đoán và điều trị bệnh hô hấp 63\nư Corticoid được chỉ định khi bệnh nhân BPTNMT giai đoạn nặng (FEV1 <\n50%), có đợt cấp lặp đi lặp lại ( ≥ 2 đợt trong 12 tháng gần đây). Dùng corticoid\ndưỡi dạng phun hít hoặc khí dung lâu dài với liều cao ( budesonid 2000\nmcg/ngày hoặc fluticason 1000 mcg/ngày).\nBảng 9.5: Các thuốc giãn phế quản và corticoid\nThuốc Liều dùng\nCường beta-2 tác dụng ngắn\nSalbutamol Viên 4 mg, uống ngày 4 viên, chia 4 lần, hoặc\nNang khí dung 5 mg, khí dung ngày 4 nang, chia 4 lần, hoặc\nSalbutamol xịt 100 mcg/lần xịt, xịt ngày 4 lần, mỗi lần 2 nhát\nTerbutalin Viên 5 mg, uống ngày 4 viên, chia 4 lần, hoặc Nang khí dung 5 mg, khí dung ngày 4 nang, chia 4 lần\nCường beta-2 tác dụng kéo dài\nIndacaterol Dạng hít, 150, 300 mcg/liều, dùng 1 liề u/ngày\nFormoterol Dạng hít 4",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 63,
+          "metadata": {
+            "disease": "COPD ổn định",
+            "page": 63,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 0,
+            "char_start": 0,
+            "char_end": 800,
+            "strategy": "B"
+          },
+          "score": 0.8150474429130554,
+          "retrieval_method": "dense",
+          "hit": false
+        }
+      ],
+      "context": "[paragraph-p70-0000 | Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf | page 70]\nHướng dẫn chẩn đoán và điều trị bệnh hô hấp 70\n3. Điều trị đợt cấp bptnmt tại nhà\n3.1. Hưỡng xử trí đợt cấp BPTNMT\nSơ đồ 1: Hướng dẫn xử trí đợt cấp BPTNMT\n\nBắt đầu hoặc gia tăng thuốc\ngiãn phế quản\nĐánh giá lại trong 1-3 giờ\nCải thiện triệu chứng\nKhông cải thiện triệu chứng\nTiếp tục điều trị\nGiảm liều thuốc khi có thể\nThêm corticoid uống\nĐánh giá lại trong 1-3 giờ\nTriệu chứng nặng thêm\nNhập viện Xem xét điều trị dài\nhạn\nKhi đã xác định đợt cấp\nhttps://vnras.com/\n\n[paragraph-p66-0002 | Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf | page 66]\nhun\nhít, sử dụng các thuốc giãn phế quản, corticoid.\n4. Tiên lượng và phòng bệnh\nư BPTNMT tiến triển nặng dần không hồi phục, vì vậy, cần điều trị sỡm,\ntích cức để bệnh tiến triển chậm.\nhttps://vnras.com/",
+      "context_ids": [
+        "paragraph-p70-0000",
+        "paragraph-p66-0002"
+      ],
+      "hit1": false,
+      "hit3": false,
+      "context_hit": false,
+      "latency_ms": 180.89879999752156
+    },
+    {
+      "query_id": "q19",
+      "split": "test",
+      "question": "Mục tiêu SpO2 và lưu lượng thở oxy tại nhà trong đợt cấp BPTNMT là bao nhiêu?",
+      "method": "dense",
+      "top_k": 3,
+      "budget": 1200,
+      "gold": [
+        {
+          "source_id": "byt-benh-ho-hap-2012",
+          "page": 71,
+          "evidence": "Thở oxy 1-3 lít/phút, duy trì SpO2 ở mực 90-92"
+        }
+      ],
+      "results": [
+        {
+          "id": "paragraph-p69-0000",
+          "text": "hướng dẫn chẩn đoán và điều trị bệnh hô hấp 69\n2.2. Các đánh giá ban đầu khi nghi có đợt cấp BPTNMT\nTiến hành làm các xét nghiệm (nếu có thể): chụp X-quang phổi, đo SpO2,\nđo PEF hoặc chức năng hô hấp.\n2.3. Chẩn đoán xác định đợt cấp BPTNMT\nTiêu chuẩn Anthonisen.\nư Khõ thở tăng.\nư Khạc đờm tăng.\nư Thay đổi màu sắc của đờm.\n2.4. Đánh giá mực độ nặng của bệnh\nCác yếu tố làm tăng mực độ nặng của đợt cấp BPTNMT tại nhà.\nư Rối loạn ý thức.\nư Cõ ≥ 3 đợt cấp BPTNMT trong năm trưỡc.\nư Chỉ số khối cơ thể ≤ 20.\nư Các triệu chứng nặng lên râ hoặc có rối loạn dấu hiệu chức năng sống.\nư Bệnh mạn tính kèm theo (bệnh tim thiếu máu cục bộ, suy tim sung\nhuyết, viêm phổi, đái tháo đường, suy thận, suy gan).\nư Hoạt động thể lức kém.\nư Không có trợ giúp xã hội.\nư Đã được chẩn đoán BPTNMT mực độ nặng hoặc rất n",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 69,
+          "metadata": {
+            "disease": "Đợt cấp COPD",
+            "page": 69,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 0,
+            "char_start": 0,
+            "char_end": 800,
+            "strategy": "B"
+          },
+          "score": 0.7947105169296265,
+          "retrieval_method": "dense",
+          "hit": false
+        },
+        {
+          "id": "paragraph-p61-0000",
+          "text": "hướng dẫn chẩn đoán và điều trị bệnh hô hấp 61\nMức độ tấc nghẽn đường thở\n2.3.3. Chẩn đoán mực độ nặng của bệnh theo chức năng hô hấp và điểm triệu\nchứng lâm sàng\nBảng 9.3: Mực độ nặng BPTNMT theo chức năng thông khí, triệu chứng lâm sàng\nKhi đánh giá nguy cơ chọn nhõm nguy cơ cao nhất\ntheo tiêu chuẩn của GOLD hoặc tiền sử đợt cấp\n\n(C)\n\n(D)\n\n(A)\n\n(B)",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 61,
+          "metadata": {
+            "disease": "COPD ổn định",
+            "page": 61,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 0,
+            "char_start": 0,
+            "char_end": 352,
+            "strategy": "B"
+          },
+          "score": 0.7896097898483276,
+          "retrieval_method": "dense",
+          "hit": false
+        },
+        {
+          "id": "paragraph-p71-0000",
+          "text": "hướng dẫn chẩn đoán và điều trị bệnh hô hấp 71\n3.2. Điều trị cụ thể\nTăng tối đa điều trị các thuốc giãn phế quản và corticoid dạng khí dung\nkhi có đợt cấp BPTNMT.\n• Thở oxy tại nhà.\nư áp dụng cho những trường hợp người bệnh đã có sẵn hệ thống oxy tại nhà.\nư Thở oxy 1-3 lít/phút, duy trì SpO2 ở mực 90-92%.\n• Thuốc giãn phế quản.\nư Nguyên tắc sử dụng.\n+ Kết hợp nhiều nhõm thuốc giãn phế quản.\n+ Tăng liều tối đa các thuốc giãn phế quản dạng khí dung và dạng uống.\nư Nhõm cường beta-2:\n+ Salbutamol 5mg x 3 - 6 nang/ngày (khí dung), hoặc terbutalin 5mg x 3-\n6 nang/ngày (khí dung) hoặc salbutamol 100 mcg x 2 nhát xịt/mỗi 3 giờ.\n+ Salbutamol 4 mg x 4 viên/ngày, uống chia 4 lần.\n+ Terbutalin 2,5 mg x 4 viên/ngày, uống chia 4 lần.\n+ Bambuterol 10 mg x 1-2 viên (uống).\nư Nhõm kháng cholinergic:\n+ Ipr",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 71,
+          "metadata": {
+            "disease": "Đợt cấp COPD",
+            "page": 71,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 0,
+            "char_start": 0,
+            "char_end": 800,
+            "strategy": "B"
+          },
+          "score": 0.757460355758667,
+          "retrieval_method": "dense",
+          "hit": true
+        }
+      ],
+      "context": "[paragraph-p69-0000 | Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf | page 69]\nhướng dẫn chẩn đoán và điều trị bệnh hô hấp 69\n2.2. Các đánh giá ban đầu khi nghi có đợt cấp BPTNMT\nTiến hành làm các xét nghiệm (nếu có thể): chụp X-quang phổi, đo SpO2,\nđo PEF hoặc chức năng hô hấp.\n2.3. Chẩn đoán xác định đợt cấp BPTNMT\nTiêu chuẩn Anthonisen.\nư Khõ thở tăng.\nư Khạc đờm tăng.\nư Thay đổi màu sắc của đờm.\n2.4. Đánh giá mực độ nặng của bệnh\nCác yếu tố làm tăng mực độ nặng của đợt cấp BPTNMT tại nhà.\nư Rối loạn ý thức.\nư Cõ ≥ 3 đợt cấp BPTNMT trong năm trưỡc.\nư Chỉ số khối cơ thể ≤ 20.\nư Các triệu chứng nặng lên râ hoặc có rối loạn dấu hiệu chức năng sống.\nư Bệnh mạn tính kèm theo (bệnh tim thiếu máu cục bộ, suy tim sung\nhuyết, viêm phổi, đái tháo đường, suy thận, suy gan).\nư Hoạt động thể lức kém.\nư Không có trợ giúp xã hội.\nư Đã được chẩn đoán BPTNMT mực độ nặng hoặc rất n",
+      "context_ids": [
+        "paragraph-p69-0000"
+      ],
+      "hit1": false,
+      "hit3": true,
+      "context_hit": false,
+      "latency_ms": 153.45410000008997
+    },
+    {
+      "query_id": "q20",
+      "split": "test",
+      "question": "Chỉ định nhập viện điều trị đối với bệnh nhân đợt cấp BPTNMT khi nào?",
+      "method": "dense",
+      "top_k": 3,
+      "budget": 1200,
+      "gold": [
+        {
+          "source_id": "byt-benh-ho-hap-2012",
+          "page": 75,
+          "evidence": "Chỉ định nhập viện điều trị với tất cả những trường hợp đợt cấp BPTNMT\nmực độ nặng, rất nặng hoặc có đe dọa cuộc sống"
+        }
+      ],
+      "results": [
+        {
+          "id": "paragraph-p70-0000",
+          "text": "Hướng dẫn chẩn đoán và điều trị bệnh hô hấp 70\n3. Điều trị đợt cấp bptnmt tại nhà\n3.1. Hưỡng xử trí đợt cấp BPTNMT\nSơ đồ 1: Hướng dẫn xử trí đợt cấp BPTNMT\n\nBắt đầu hoặc gia tăng thuốc\ngiãn phế quản\nĐánh giá lại trong 1-3 giờ\nCải thiện triệu chứng\nKhông cải thiện triệu chứng\nTiếp tục điều trị\nGiảm liều thuốc khi có thể\nThêm corticoid uống\nĐánh giá lại trong 1-3 giờ\nTriệu chứng nặng thêm\nNhập viện Xem xét điều trị dài\nhạn\nKhi đã xác định đợt cấp\nhttps://vnras.com/",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 70,
+          "metadata": {
+            "disease": "Đợt cấp COPD",
+            "page": 70,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 0,
+            "char_start": 0,
+            "char_end": 467,
+            "strategy": "B"
+          },
+          "score": 0.8232153654098511,
+          "retrieval_method": "dense",
+          "hit": false
+        },
+        {
+          "id": "paragraph-p69-0000",
+          "text": "hướng dẫn chẩn đoán và điều trị bệnh hô hấp 69\n2.2. Các đánh giá ban đầu khi nghi có đợt cấp BPTNMT\nTiến hành làm các xét nghiệm (nếu có thể): chụp X-quang phổi, đo SpO2,\nđo PEF hoặc chức năng hô hấp.\n2.3. Chẩn đoán xác định đợt cấp BPTNMT\nTiêu chuẩn Anthonisen.\nư Khõ thở tăng.\nư Khạc đờm tăng.\nư Thay đổi màu sắc của đờm.\n2.4. Đánh giá mực độ nặng của bệnh\nCác yếu tố làm tăng mực độ nặng của đợt cấp BPTNMT tại nhà.\nư Rối loạn ý thức.\nư Cõ ≥ 3 đợt cấp BPTNMT trong năm trưỡc.\nư Chỉ số khối cơ thể ≤ 20.\nư Các triệu chứng nặng lên râ hoặc có rối loạn dấu hiệu chức năng sống.\nư Bệnh mạn tính kèm theo (bệnh tim thiếu máu cục bộ, suy tim sung\nhuyết, viêm phổi, đái tháo đường, suy thận, suy gan).\nư Hoạt động thể lức kém.\nư Không có trợ giúp xã hội.\nư Đã được chẩn đoán BPTNMT mực độ nặng hoặc rất n",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 69,
+          "metadata": {
+            "disease": "Đợt cấp COPD",
+            "page": 69,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 0,
+            "char_start": 0,
+            "char_end": 800,
+            "strategy": "B"
+          },
+          "score": 0.8103125095367432,
+          "retrieval_method": "dense",
+          "hit": false
+        },
+        {
+          "id": "paragraph-p72-0000",
+          "text": "Hướng dẫn chẩn đoán và điều trị bệnh hô hấp 72\nư Nên sử dụng một trong các thuốc sau, hoặc có thể kết hợp 2 thuốc thuộc\n2 nhõm khác nhau:\n+ Nhõm betalactam: ampicillin/amoxillin + kháng betalacta mase: liều\n3g/ngày, chia 3 lần; hoặc dùng cefuroxim: liều 2 g/ngà y, uống chia 4 lần; hoặc\ndùng: ampicillin/amoxillin/cephalexin: liều 3 g/ngày, chia 3 lần.\n+ Levofloxacin 750 mg/ngày, moxifloxacin 400 mg/ngày, cip rofloxacin\n1g/ngày.\n3.4. Theo dâi và chỉ định bệnh nhân nhập viện điều trị\nCác trường hợp đợt cấp BPTNMT nhẹ thường được chỉ định điều trị tại nhà.\nCần chỉ định nhập viện cho các bệnh nhân này khi có 1 hoặc nhiều dấu hiệu sau:\nBảng 10.3: Chỉ định nhập viện cho đợt cấp BPTNMT\n- Khõ thở nặng\n- Đã có chẩn đoán BPTNMT nặng hoặc rất\nnặng\n- Xuất hiện các dấu hiệu thức thể mỡi: tím môi,\nđầu ch",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 72,
+          "metadata": {
+            "disease": "Đợt cấp COPD",
+            "page": 72,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 0,
+            "char_start": 0,
+            "char_end": 800,
+            "strategy": "B"
+          },
+          "score": 0.8098219633102417,
+          "retrieval_method": "dense",
+          "hit": false
+        }
+      ],
+      "context": "[paragraph-p70-0000 | Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf | page 70]\nHướng dẫn chẩn đoán và điều trị bệnh hô hấp 70\n3. Điều trị đợt cấp bptnmt tại nhà\n3.1. Hưỡng xử trí đợt cấp BPTNMT\nSơ đồ 1: Hướng dẫn xử trí đợt cấp BPTNMT\n\nBắt đầu hoặc gia tăng thuốc\ngiãn phế quản\nĐánh giá lại trong 1-3 giờ\nCải thiện triệu chứng\nKhông cải thiện triệu chứng\nTiếp tục điều trị\nGiảm liều thuốc khi có thể\nThêm corticoid uống\nĐánh giá lại trong 1-3 giờ\nTriệu chứng nặng thêm\nNhập viện Xem xét điều trị dài\nhạn\nKhi đã xác định đợt cấp\nhttps://vnras.com/",
+      "context_ids": [
+        "paragraph-p70-0000"
+      ],
+      "hit1": false,
+      "hit3": false,
+      "context_hit": false,
+      "latency_ms": 148.00429999741027
+    }
+  ],
+  "bm25": [
+    {
+      "query_id": "q16",
+      "split": "test",
+      "question": "Đợt cấp bệnh phổi tắc nghẽn mạn tính (BPTNMT) được định nghĩa như thế nào?",
+      "method": "bm25",
+      "top_k": 3,
+      "budget": 1200,
+      "gold": [
+        {
+          "source_id": "byt-benh-ho-hap-2012",
+          "page": 68,
+          "evidence": "Đợt cấp bệnh phổi tắc nghẽn mạn tính (BPTNMT, COPD) là tình trạng\nthay đổi cấp tính của các biểu hiện lâm sàng: khõ thở t ăng, ho tăng, khạc đờm\ntăng"
+        }
+      ],
+      "results": [
+        {
+          "id": "paragraph-p73-0000",
+          "text": "hướng dẫn chẩn đoán và điều trị bệnh hô hấp 73\nHướng dẫn chẩn đoán và điều trị đợt cấp\nbệnh phổi tắc nghẽn mạn tính tại các khoa nội\n1. Đại cương\nĐợt cấp bệnh phổi tắc nghẽn mạn tính (BPTNMT, COPD) được chia thành\nnhiều mực độ nặng khác nhau. Những trường hợp đợt cấp mự c độ nhẹ thường\nkiểm soát bằng tăng các điều trị hàng ngày. Khi bệnh n ặng hơn, hoặc có dấu\nhiệu nhiễm trùng (đợt cấp mực độ trung bình) thường cần dùng thêm kháng\nsinh và/hoặc corticoid đường uống. Nếu đợt cấp kèm thêm một hoặc nhiều dấu\nhiệu sau (tham khảo thêm bảng 11):\nư Cõ biểu hiện suy hô hấp trên lâm sàng (đợt cấp BPTNMT mực độ nặng).\nư Không đáp ựng với điều trị ban đầu.\nư Cõ bệnh mạn tính nặng kèm theo: bệnh gan, thận, tim mạch.\nư Không có hỗ trợ từ phía gia đình.\nChỉ định nhập viện điều trị tại khoa nội hoặc khoa ",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 73,
+          "metadata": {
+            "disease": "Đợt cấp COPD",
+            "page": 73,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 0,
+            "char_start": 0,
+            "char_end": 800,
+            "strategy": "B"
+          },
+          "score": 21.41327808531,
+          "retrieval_method": "bm25",
+          "hit": false
+        },
+        {
+          "id": "paragraph-p68-0000",
+          "text": "Hướng dẫn chẩn đoán và điều trị bệnh hô hấp 68\nHướng dẫn chẩn đoán và xử trí cấp cựu\nĐợt cấp bệnh phổi tắc nghẽn mạn tính tại nhà\n1. Đại cương\nư Đợt cấp bệnh phổi tắc nghẽn mạn tính (BPTNMT, COPD) là tình trạng\nthay đổi cấp tính của các biểu hiện lâm sàng: khõ thở t ăng, ho tăng, khạc đờm\ntăng và hoặc thay đổi màu sắc của đờm. Những biến đổi nà y đòi hói phải có\nthay đổi trong điều trị.\nư Căn nguyên đợt bùng phát.\n+ Nhiễm trùng hô hấp: Haemophilus influenza , phế cầu, Moraxella\ncatarrhalis.\n+ ¤ nhiễm không khí (khói thuốc, tiếp xúc nghề nghiệp, ozon).\nNhiễm trùng hô hấp là nguyên nhân gây bùng phát thường gặp nhất.\nKhoảng 1/3 số trường hợp bùng phát không râ căn nguyên.\n2. Chẩn đoán\n2.1. Các triệu chứng của đợt cấp BPTNMT\nBảng 10.1: Các triệu chứng của đợt cấp BPTNMT\nBộ phận cơ thể Triệu c",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 68,
+          "metadata": {
+            "disease": "Đợt cấp COPD",
+            "page": 68,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 0,
+            "char_start": 0,
+            "char_end": 800,
+            "strategy": "B"
+          },
+          "score": 18.79498519202828,
+          "retrieval_method": "bm25",
+          "hit": true
+        },
+        {
+          "id": "paragraph-p58-0000",
+          "text": "Hướng dẫn chẩn đoán và điều trị bệnh hô hấp 58\nHướng dẫn chẩn đoán và điều trị\nbệnh phổi tắc nghẽn mạn tính giai đoạn ổn định\n1. Đại cương\nBệnh phổi tắc nghẽn mạn tính (BPTNMT, COPD) là bệnh lý hô hấp mạn\ntính có thể dự phòng và điều trị được. Bệnh đặc trưng bởi sự tắc nghẽn luồng\nkhí thở ra không hồi phục hoàn toàn, sự cản trở thông khí này thường tiến triển\ntừ từ và liên quan đến phản ựng viêm bất thường của phổi với các phân tử nhó\nhoặc khí độc hại mà trong đó khói thuốc lá, thuốc lào đóng vai trò hàng đầu.\n2. Chẩn đoán BPTNMT\n2.1. Chẩn đoán xác định\n2.1.1. Triệu chứng lâm sàng: Bệnh nhân có thể có một trong các dấu hiệu sau:\nư Trong tiền sử và/hoặc hiện tại có tiếp xúc với yếu tố nguy c ơ: hút thuốc\nlá, thuốc lào, tiếp xúc với khói bụi và hoá chất, khói bếp và khói của nhiên\nliệu đốt.\n",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 58,
+          "metadata": {
+            "disease": "COPD ổn định",
+            "page": 58,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 0,
+            "char_start": 0,
+            "char_end": 800,
+            "strategy": "B"
+          },
+          "score": 16.822161604807093,
+          "retrieval_method": "bm25",
+          "hit": false
+        }
+      ],
+      "context": "[paragraph-p73-0000 | Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf | page 73]\nhướng dẫn chẩn đoán và điều trị bệnh hô hấp 73\nHướng dẫn chẩn đoán và điều trị đợt cấp\nbệnh phổi tắc nghẽn mạn tính tại các khoa nội\n1. Đại cương\nĐợt cấp bệnh phổi tắc nghẽn mạn tính (BPTNMT, COPD) được chia thành\nnhiều mực độ nặng khác nhau. Những trường hợp đợt cấp mự c độ nhẹ thường\nkiểm soát bằng tăng các điều trị hàng ngày. Khi bệnh n ặng hơn, hoặc có dấu\nhiệu nhiễm trùng (đợt cấp mực độ trung bình) thường cần dùng thêm kháng\nsinh và/hoặc corticoid đường uống. Nếu đợt cấp kèm thêm một hoặc nhiều dấu\nhiệu sau (tham khảo thêm bảng 11):\nư Cõ biểu hiện suy hô hấp trên lâm sàng (đợt cấp BPTNMT mực độ nặng).\nư Không đáp ựng với điều trị ban đầu.\nư Cõ bệnh mạn tính nặng kèm theo: bệnh gan, thận, tim mạch.\nư Không có hỗ trợ từ phía gia đình.\nChỉ định nhập viện điều trị tại khoa nội hoặc khoa ",
+      "context_ids": [
+        "paragraph-p73-0000"
+      ],
+      "hit1": false,
+      "hit3": true,
+      "context_hit": false,
+      "latency_ms": 3.132099998765625
+    },
+    {
+      "query_id": "q17",
+      "split": "test",
+      "question": "Tiêu chuẩn Anthonisen xác định đợt cấp BPTNMT gồm những triệu chứng nào?",
+      "method": "bm25",
+      "top_k": 3,
+      "budget": 1200,
+      "gold": [
+        {
+          "source_id": "byt-benh-ho-hap-2012",
+          "page": 69,
+          "evidence": "Tiêu chuẩn Anthonisen.\nư Khõ thở tăng.\nư Khạc đờm tăng.\nư Thay đổi màu sắc của đờm"
+        }
+      ],
+      "results": [
+        {
+          "id": "paragraph-p69-0000",
+          "text": "hướng dẫn chẩn đoán và điều trị bệnh hô hấp 69\n2.2. Các đánh giá ban đầu khi nghi có đợt cấp BPTNMT\nTiến hành làm các xét nghiệm (nếu có thể): chụp X-quang phổi, đo SpO2,\nđo PEF hoặc chức năng hô hấp.\n2.3. Chẩn đoán xác định đợt cấp BPTNMT\nTiêu chuẩn Anthonisen.\nư Khõ thở tăng.\nư Khạc đờm tăng.\nư Thay đổi màu sắc của đờm.\n2.4. Đánh giá mực độ nặng của bệnh\nCác yếu tố làm tăng mực độ nặng của đợt cấp BPTNMT tại nhà.\nư Rối loạn ý thức.\nư Cõ ≥ 3 đợt cấp BPTNMT trong năm trưỡc.\nư Chỉ số khối cơ thể ≤ 20.\nư Các triệu chứng nặng lên râ hoặc có rối loạn dấu hiệu chức năng sống.\nư Bệnh mạn tính kèm theo (bệnh tim thiếu máu cục bộ, suy tim sung\nhuyết, viêm phổi, đái tháo đường, suy thận, suy gan).\nư Hoạt động thể lức kém.\nư Không có trợ giúp xã hội.\nư Đã được chẩn đoán BPTNMT mực độ nặng hoặc rất n",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 69,
+          "metadata": {
+            "disease": "Đợt cấp COPD",
+            "page": 69,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 0,
+            "char_start": 0,
+            "char_end": 800,
+            "strategy": "B"
+          },
+          "score": 21.47956960217391,
+          "retrieval_method": "bm25",
+          "hit": true
+        },
+        {
+          "id": "paragraph-p61-0000",
+          "text": "hướng dẫn chẩn đoán và điều trị bệnh hô hấp 61\nMức độ tấc nghẽn đường thở\n2.3.3. Chẩn đoán mực độ nặng của bệnh theo chức năng hô hấp và điểm triệu\nchứng lâm sàng\nBảng 9.3: Mực độ nặng BPTNMT theo chức năng thông khí, triệu chứng lâm sàng\nKhi đánh giá nguy cơ chọn nhõm nguy cơ cao nhất\ntheo tiêu chuẩn của GOLD hoặc tiền sử đợt cấp\n\n(C)\n\n(D)\n\n(A)\n\n(B)",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 61,
+          "metadata": {
+            "disease": "COPD ổn định",
+            "page": 61,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 0,
+            "char_start": 0,
+            "char_end": 352,
+            "strategy": "B"
+          },
+          "score": 17.906009539342172,
+          "retrieval_method": "bm25",
+          "hit": false
+        },
+        {
+          "id": "paragraph-p70-0000",
+          "text": "Hướng dẫn chẩn đoán và điều trị bệnh hô hấp 70\n3. Điều trị đợt cấp bptnmt tại nhà\n3.1. Hưỡng xử trí đợt cấp BPTNMT\nSơ đồ 1: Hướng dẫn xử trí đợt cấp BPTNMT\n\nBắt đầu hoặc gia tăng thuốc\ngiãn phế quản\nĐánh giá lại trong 1-3 giờ\nCải thiện triệu chứng\nKhông cải thiện triệu chứng\nTiếp tục điều trị\nGiảm liều thuốc khi có thể\nThêm corticoid uống\nĐánh giá lại trong 1-3 giờ\nTriệu chứng nặng thêm\nNhập viện Xem xét điều trị dài\nhạn\nKhi đã xác định đợt cấp\nhttps://vnras.com/",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 70,
+          "metadata": {
+            "disease": "Đợt cấp COPD",
+            "page": 70,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 0,
+            "char_start": 0,
+            "char_end": 467,
+            "strategy": "B"
+          },
+          "score": 17.210942009933643,
+          "retrieval_method": "bm25",
+          "hit": false
+        }
+      ],
+      "context": "[paragraph-p69-0000 | Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf | page 69]\nhướng dẫn chẩn đoán và điều trị bệnh hô hấp 69\n2.2. Các đánh giá ban đầu khi nghi có đợt cấp BPTNMT\nTiến hành làm các xét nghiệm (nếu có thể): chụp X-quang phổi, đo SpO2,\nđo PEF hoặc chức năng hô hấp.\n2.3. Chẩn đoán xác định đợt cấp BPTNMT\nTiêu chuẩn Anthonisen.\nư Khõ thở tăng.\nư Khạc đờm tăng.\nư Thay đổi màu sắc của đờm.\n2.4. Đánh giá mực độ nặng của bệnh\nCác yếu tố làm tăng mực độ nặng của đợt cấp BPTNMT tại nhà.\nư Rối loạn ý thức.\nư Cõ ≥ 3 đợt cấp BPTNMT trong năm trưỡc.\nư Chỉ số khối cơ thể ≤ 20.\nư Các triệu chứng nặng lên râ hoặc có rối loạn dấu hiệu chức năng sống.\nư Bệnh mạn tính kèm theo (bệnh tim thiếu máu cục bộ, suy tim sung\nhuyết, viêm phổi, đái tháo đường, suy thận, suy gan).\nư Hoạt động thể lức kém.\nư Không có trợ giúp xã hội.\nư Đã được chẩn đoán BPTNMT mực độ nặng hoặc rất n",
+      "context_ids": [
+        "paragraph-p69-0000"
+      ],
+      "hit1": true,
+      "hit3": true,
+      "context_hit": true,
+      "latency_ms": 3.321400003187591
+    },
+    {
+      "query_id": "q18",
+      "split": "test",
+      "question": "Nguyên tắc điều trị đợt cấp BPTNMT tại nhà đối với thuốc giãn phế quản và corticoid là gì?",
+      "method": "bm25",
+      "top_k": 3,
+      "budget": 1200,
+      "gold": [
+        {
+          "source_id": "byt-benh-ho-hap-2012",
+          "page": 71,
+          "evidence": "Tăng tối đa điều trị các thuốc giãn phế quản và corticoid dạng khí dung"
+        }
+      ],
+      "results": [
+        {
+          "id": "paragraph-p71-0000",
+          "text": "hướng dẫn chẩn đoán và điều trị bệnh hô hấp 71\n3.2. Điều trị cụ thể\nTăng tối đa điều trị các thuốc giãn phế quản và corticoid dạng khí dung\nkhi có đợt cấp BPTNMT.\n• Thở oxy tại nhà.\nư áp dụng cho những trường hợp người bệnh đã có sẵn hệ thống oxy tại nhà.\nư Thở oxy 1-3 lít/phút, duy trì SpO2 ở mực 90-92%.\n• Thuốc giãn phế quản.\nư Nguyên tắc sử dụng.\n+ Kết hợp nhiều nhõm thuốc giãn phế quản.\n+ Tăng liều tối đa các thuốc giãn phế quản dạng khí dung và dạng uống.\nư Nhõm cường beta-2:\n+ Salbutamol 5mg x 3 - 6 nang/ngày (khí dung), hoặc terbutalin 5mg x 3-\n6 nang/ngày (khí dung) hoặc salbutamol 100 mcg x 2 nhát xịt/mỗi 3 giờ.\n+ Salbutamol 4 mg x 4 viên/ngày, uống chia 4 lần.\n+ Terbutalin 2,5 mg x 4 viên/ngày, uống chia 4 lần.\n+ Bambuterol 10 mg x 1-2 viên (uống).\nư Nhõm kháng cholinergic:\n+ Ipr",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 71,
+          "metadata": {
+            "disease": "Đợt cấp COPD",
+            "page": 71,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 0,
+            "char_start": 0,
+            "char_end": 800,
+            "strategy": "B"
+          },
+          "score": 23.912522230006253,
+          "retrieval_method": "bm25",
+          "hit": true
+        },
+        {
+          "id": "paragraph-p70-0000",
+          "text": "Hướng dẫn chẩn đoán và điều trị bệnh hô hấp 70\n3. Điều trị đợt cấp bptnmt tại nhà\n3.1. Hưỡng xử trí đợt cấp BPTNMT\nSơ đồ 1: Hướng dẫn xử trí đợt cấp BPTNMT\n\nBắt đầu hoặc gia tăng thuốc\ngiãn phế quản\nĐánh giá lại trong 1-3 giờ\nCải thiện triệu chứng\nKhông cải thiện triệu chứng\nTiếp tục điều trị\nGiảm liều thuốc khi có thể\nThêm corticoid uống\nĐánh giá lại trong 1-3 giờ\nTriệu chứng nặng thêm\nNhập viện Xem xét điều trị dài\nhạn\nKhi đã xác định đợt cấp\nhttps://vnras.com/",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 70,
+          "metadata": {
+            "disease": "Đợt cấp COPD",
+            "page": 70,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 0,
+            "char_start": 0,
+            "char_end": 467,
+            "strategy": "B"
+          },
+          "score": 23.49324306278689,
+          "retrieval_method": "bm25",
+          "hit": false
+        },
+        {
+          "id": "paragraph-p68-0000",
+          "text": "Hướng dẫn chẩn đoán và điều trị bệnh hô hấp 68\nHướng dẫn chẩn đoán và xử trí cấp cựu\nĐợt cấp bệnh phổi tắc nghẽn mạn tính tại nhà\n1. Đại cương\nư Đợt cấp bệnh phổi tắc nghẽn mạn tính (BPTNMT, COPD) là tình trạng\nthay đổi cấp tính của các biểu hiện lâm sàng: khõ thở t ăng, ho tăng, khạc đờm\ntăng và hoặc thay đổi màu sắc của đờm. Những biến đổi nà y đòi hói phải có\nthay đổi trong điều trị.\nư Căn nguyên đợt bùng phát.\n+ Nhiễm trùng hô hấp: Haemophilus influenza , phế cầu, Moraxella\ncatarrhalis.\n+ ¤ nhiễm không khí (khói thuốc, tiếp xúc nghề nghiệp, ozon).\nNhiễm trùng hô hấp là nguyên nhân gây bùng phát thường gặp nhất.\nKhoảng 1/3 số trường hợp bùng phát không râ căn nguyên.\n2. Chẩn đoán\n2.1. Các triệu chứng của đợt cấp BPTNMT\nBảng 10.1: Các triệu chứng của đợt cấp BPTNMT\nBộ phận cơ thể Triệu c",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 68,
+          "metadata": {
+            "disease": "Đợt cấp COPD",
+            "page": 68,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 0,
+            "char_start": 0,
+            "char_end": 800,
+            "strategy": "B"
+          },
+          "score": 22.617056660714052,
+          "retrieval_method": "bm25",
+          "hit": false
+        }
+      ],
+      "context": "[paragraph-p71-0000 | Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf | page 71]\nhướng dẫn chẩn đoán và điều trị bệnh hô hấp 71\n3.2. Điều trị cụ thể\nTăng tối đa điều trị các thuốc giãn phế quản và corticoid dạng khí dung\nkhi có đợt cấp BPTNMT.\n• Thở oxy tại nhà.\nư áp dụng cho những trường hợp người bệnh đã có sẵn hệ thống oxy tại nhà.\nư Thở oxy 1-3 lít/phút, duy trì SpO2 ở mực 90-92%.\n• Thuốc giãn phế quản.\nư Nguyên tắc sử dụng.\n+ Kết hợp nhiều nhõm thuốc giãn phế quản.\n+ Tăng liều tối đa các thuốc giãn phế quản dạng khí dung và dạng uống.\nư Nhõm cường beta-2:\n+ Salbutamol 5mg x 3 - 6 nang/ngày (khí dung), hoặc terbutalin 5mg x 3-\n6 nang/ngày (khí dung) hoặc salbutamol 100 mcg x 2 nhát xịt/mỗi 3 giờ.\n+ Salbutamol 4 mg x 4 viên/ngày, uống chia 4 lần.\n+ Terbutalin 2,5 mg x 4 viên/ngày, uống chia 4 lần.\n+ Bambuterol 10 mg x 1-2 viên (uống).\nư Nhõm kháng cholinergic:\n+ Ipr",
+      "context_ids": [
+        "paragraph-p71-0000"
+      ],
+      "hit1": true,
+      "hit3": true,
+      "context_hit": true,
+      "latency_ms": 2.9041000016150065
+    },
+    {
+      "query_id": "q19",
+      "split": "test",
+      "question": "Mục tiêu SpO2 và lưu lượng thở oxy tại nhà trong đợt cấp BPTNMT là bao nhiêu?",
+      "method": "bm25",
+      "top_k": 3,
+      "budget": 1200,
+      "gold": [
+        {
+          "source_id": "byt-benh-ho-hap-2012",
+          "page": 71,
+          "evidence": "Thở oxy 1-3 lít/phút, duy trì SpO2 ở mực 90-92"
+        }
+      ],
+      "results": [
+        {
+          "id": "paragraph-p69-0000",
+          "text": "hướng dẫn chẩn đoán và điều trị bệnh hô hấp 69\n2.2. Các đánh giá ban đầu khi nghi có đợt cấp BPTNMT\nTiến hành làm các xét nghiệm (nếu có thể): chụp X-quang phổi, đo SpO2,\nđo PEF hoặc chức năng hô hấp.\n2.3. Chẩn đoán xác định đợt cấp BPTNMT\nTiêu chuẩn Anthonisen.\nư Khõ thở tăng.\nư Khạc đờm tăng.\nư Thay đổi màu sắc của đờm.\n2.4. Đánh giá mực độ nặng của bệnh\nCác yếu tố làm tăng mực độ nặng của đợt cấp BPTNMT tại nhà.\nư Rối loạn ý thức.\nư Cõ ≥ 3 đợt cấp BPTNMT trong năm trưỡc.\nư Chỉ số khối cơ thể ≤ 20.\nư Các triệu chứng nặng lên râ hoặc có rối loạn dấu hiệu chức năng sống.\nư Bệnh mạn tính kèm theo (bệnh tim thiếu máu cục bộ, suy tim sung\nhuyết, viêm phổi, đái tháo đường, suy thận, suy gan).\nư Hoạt động thể lức kém.\nư Không có trợ giúp xã hội.\nư Đã được chẩn đoán BPTNMT mực độ nặng hoặc rất n",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 69,
+          "metadata": {
+            "disease": "Đợt cấp COPD",
+            "page": 69,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 0,
+            "char_start": 0,
+            "char_end": 800,
+            "strategy": "B"
+          },
+          "score": 18.87364516887758,
+          "retrieval_method": "bm25",
+          "hit": false
+        },
+        {
+          "id": "paragraph-p71-0000",
+          "text": "hướng dẫn chẩn đoán và điều trị bệnh hô hấp 71\n3.2. Điều trị cụ thể\nTăng tối đa điều trị các thuốc giãn phế quản và corticoid dạng khí dung\nkhi có đợt cấp BPTNMT.\n• Thở oxy tại nhà.\nư áp dụng cho những trường hợp người bệnh đã có sẵn hệ thống oxy tại nhà.\nư Thở oxy 1-3 lít/phút, duy trì SpO2 ở mực 90-92%.\n• Thuốc giãn phế quản.\nư Nguyên tắc sử dụng.\n+ Kết hợp nhiều nhõm thuốc giãn phế quản.\n+ Tăng liều tối đa các thuốc giãn phế quản dạng khí dung và dạng uống.\nư Nhõm cường beta-2:\n+ Salbutamol 5mg x 3 - 6 nang/ngày (khí dung), hoặc terbutalin 5mg x 3-\n6 nang/ngày (khí dung) hoặc salbutamol 100 mcg x 2 nhát xịt/mỗi 3 giờ.\n+ Salbutamol 4 mg x 4 viên/ngày, uống chia 4 lần.\n+ Terbutalin 2,5 mg x 4 viên/ngày, uống chia 4 lần.\n+ Bambuterol 10 mg x 1-2 viên (uống).\nư Nhõm kháng cholinergic:\n+ Ipr",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 71,
+          "metadata": {
+            "disease": "Đợt cấp COPD",
+            "page": 71,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 0,
+            "char_start": 0,
+            "char_end": 800,
+            "strategy": "B"
+          },
+          "score": 18.252615494632902,
+          "retrieval_method": "bm25",
+          "hit": true
+        },
+        {
+          "id": "paragraph-p68-0000",
+          "text": "Hướng dẫn chẩn đoán và điều trị bệnh hô hấp 68\nHướng dẫn chẩn đoán và xử trí cấp cựu\nĐợt cấp bệnh phổi tắc nghẽn mạn tính tại nhà\n1. Đại cương\nư Đợt cấp bệnh phổi tắc nghẽn mạn tính (BPTNMT, COPD) là tình trạng\nthay đổi cấp tính của các biểu hiện lâm sàng: khõ thở t ăng, ho tăng, khạc đờm\ntăng và hoặc thay đổi màu sắc của đờm. Những biến đổi nà y đòi hói phải có\nthay đổi trong điều trị.\nư Căn nguyên đợt bùng phát.\n+ Nhiễm trùng hô hấp: Haemophilus influenza , phế cầu, Moraxella\ncatarrhalis.\n+ ¤ nhiễm không khí (khói thuốc, tiếp xúc nghề nghiệp, ozon).\nNhiễm trùng hô hấp là nguyên nhân gây bùng phát thường gặp nhất.\nKhoảng 1/3 số trường hợp bùng phát không râ căn nguyên.\n2. Chẩn đoán\n2.1. Các triệu chứng của đợt cấp BPTNMT\nBảng 10.1: Các triệu chứng của đợt cấp BPTNMT\nBộ phận cơ thể Triệu c",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 68,
+          "metadata": {
+            "disease": "Đợt cấp COPD",
+            "page": 68,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 0,
+            "char_start": 0,
+            "char_end": 800,
+            "strategy": "B"
+          },
+          "score": 16.936026206445547,
+          "retrieval_method": "bm25",
+          "hit": false
+        }
+      ],
+      "context": "[paragraph-p69-0000 | Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf | page 69]\nhướng dẫn chẩn đoán và điều trị bệnh hô hấp 69\n2.2. Các đánh giá ban đầu khi nghi có đợt cấp BPTNMT\nTiến hành làm các xét nghiệm (nếu có thể): chụp X-quang phổi, đo SpO2,\nđo PEF hoặc chức năng hô hấp.\n2.3. Chẩn đoán xác định đợt cấp BPTNMT\nTiêu chuẩn Anthonisen.\nư Khõ thở tăng.\nư Khạc đờm tăng.\nư Thay đổi màu sắc của đờm.\n2.4. Đánh giá mực độ nặng của bệnh\nCác yếu tố làm tăng mực độ nặng của đợt cấp BPTNMT tại nhà.\nư Rối loạn ý thức.\nư Cõ ≥ 3 đợt cấp BPTNMT trong năm trưỡc.\nư Chỉ số khối cơ thể ≤ 20.\nư Các triệu chứng nặng lên râ hoặc có rối loạn dấu hiệu chức năng sống.\nư Bệnh mạn tính kèm theo (bệnh tim thiếu máu cục bộ, suy tim sung\nhuyết, viêm phổi, đái tháo đường, suy thận, suy gan).\nư Hoạt động thể lức kém.\nư Không có trợ giúp xã hội.\nư Đã được chẩn đoán BPTNMT mực độ nặng hoặc rất n",
+      "context_ids": [
+        "paragraph-p69-0000"
+      ],
+      "hit1": false,
+      "hit3": true,
+      "context_hit": false,
+      "latency_ms": 2.65390000276966
+    },
+    {
+      "query_id": "q20",
+      "split": "test",
+      "question": "Chỉ định nhập viện điều trị đối với bệnh nhân đợt cấp BPTNMT khi nào?",
+      "method": "bm25",
+      "top_k": 3,
+      "budget": 1200,
+      "gold": [
+        {
+          "source_id": "byt-benh-ho-hap-2012",
+          "page": 75,
+          "evidence": "Chỉ định nhập viện điều trị với tất cả những trường hợp đợt cấp BPTNMT\nmực độ nặng, rất nặng hoặc có đe dọa cuộc sống"
+        }
+      ],
+      "results": [
+        {
+          "id": "paragraph-p72-0000",
+          "text": "Hướng dẫn chẩn đoán và điều trị bệnh hô hấp 72\nư Nên sử dụng một trong các thuốc sau, hoặc có thể kết hợp 2 thuốc thuộc\n2 nhõm khác nhau:\n+ Nhõm betalactam: ampicillin/amoxillin + kháng betalacta mase: liều\n3g/ngày, chia 3 lần; hoặc dùng cefuroxim: liều 2 g/ngà y, uống chia 4 lần; hoặc\ndùng: ampicillin/amoxillin/cephalexin: liều 3 g/ngày, chia 3 lần.\n+ Levofloxacin 750 mg/ngày, moxifloxacin 400 mg/ngày, cip rofloxacin\n1g/ngày.\n3.4. Theo dâi và chỉ định bệnh nhân nhập viện điều trị\nCác trường hợp đợt cấp BPTNMT nhẹ thường được chỉ định điều trị tại nhà.\nCần chỉ định nhập viện cho các bệnh nhân này khi có 1 hoặc nhiều dấu hiệu sau:\nBảng 10.3: Chỉ định nhập viện cho đợt cấp BPTNMT\n- Khõ thở nặng\n- Đã có chẩn đoán BPTNMT nặng hoặc rất\nnặng\n- Xuất hiện các dấu hiệu thức thể mỡi: tím môi,\nđầu ch",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 72,
+          "metadata": {
+            "disease": "Đợt cấp COPD",
+            "page": 72,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 0,
+            "char_start": 0,
+            "char_end": 800,
+            "strategy": "B"
+          },
+          "score": 21.947579565625574,
+          "retrieval_method": "bm25",
+          "hit": false
+        },
+        {
+          "id": "paragraph-p73-0000",
+          "text": "hướng dẫn chẩn đoán và điều trị bệnh hô hấp 73\nHướng dẫn chẩn đoán và điều trị đợt cấp\nbệnh phổi tắc nghẽn mạn tính tại các khoa nội\n1. Đại cương\nĐợt cấp bệnh phổi tắc nghẽn mạn tính (BPTNMT, COPD) được chia thành\nnhiều mực độ nặng khác nhau. Những trường hợp đợt cấp mự c độ nhẹ thường\nkiểm soát bằng tăng các điều trị hàng ngày. Khi bệnh n ặng hơn, hoặc có dấu\nhiệu nhiễm trùng (đợt cấp mực độ trung bình) thường cần dùng thêm kháng\nsinh và/hoặc corticoid đường uống. Nếu đợt cấp kèm thêm một hoặc nhiều dấu\nhiệu sau (tham khảo thêm bảng 11):\nư Cõ biểu hiện suy hô hấp trên lâm sàng (đợt cấp BPTNMT mực độ nặng).\nư Không đáp ựng với điều trị ban đầu.\nư Cõ bệnh mạn tính nặng kèm theo: bệnh gan, thận, tim mạch.\nư Không có hỗ trợ từ phía gia đình.\nChỉ định nhập viện điều trị tại khoa nội hoặc khoa ",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 73,
+          "metadata": {
+            "disease": "Đợt cấp COPD",
+            "page": 73,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 0,
+            "char_start": 0,
+            "char_end": 800,
+            "strategy": "B"
+          },
+          "score": 18.07283219069579,
+          "retrieval_method": "bm25",
+          "hit": false
+        },
+        {
+          "id": "paragraph-p70-0000",
+          "text": "Hướng dẫn chẩn đoán và điều trị bệnh hô hấp 70\n3. Điều trị đợt cấp bptnmt tại nhà\n3.1. Hưỡng xử trí đợt cấp BPTNMT\nSơ đồ 1: Hướng dẫn xử trí đợt cấp BPTNMT\n\nBắt đầu hoặc gia tăng thuốc\ngiãn phế quản\nĐánh giá lại trong 1-3 giờ\nCải thiện triệu chứng\nKhông cải thiện triệu chứng\nTiếp tục điều trị\nGiảm liều thuốc khi có thể\nThêm corticoid uống\nĐánh giá lại trong 1-3 giờ\nTriệu chứng nặng thêm\nNhập viện Xem xét điều trị dài\nhạn\nKhi đã xác định đợt cấp\nhttps://vnras.com/",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 70,
+          "metadata": {
+            "disease": "Đợt cấp COPD",
+            "page": 70,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 0,
+            "char_start": 0,
+            "char_end": 467,
+            "strategy": "B"
+          },
+          "score": 17.999043943048328,
+          "retrieval_method": "bm25",
+          "hit": false
+        }
+      ],
+      "context": "[paragraph-p72-0000 | Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf | page 72]\nHướng dẫn chẩn đoán và điều trị bệnh hô hấp 72\nư Nên sử dụng một trong các thuốc sau, hoặc có thể kết hợp 2 thuốc thuộc\n2 nhõm khác nhau:\n+ Nhõm betalactam: ampicillin/amoxillin + kháng betalacta mase: liều\n3g/ngày, chia 3 lần; hoặc dùng cefuroxim: liều 2 g/ngà y, uống chia 4 lần; hoặc\ndùng: ampicillin/amoxillin/cephalexin: liều 3 g/ngày, chia 3 lần.\n+ Levofloxacin 750 mg/ngày, moxifloxacin 400 mg/ngày, cip rofloxacin\n1g/ngày.\n3.4. Theo dâi và chỉ định bệnh nhân nhập viện điều trị\nCác trường hợp đợt cấp BPTNMT nhẹ thường được chỉ định điều trị tại nhà.\nCần chỉ định nhập viện cho các bệnh nhân này khi có 1 hoặc nhiều dấu hiệu sau:\nBảng 10.3: Chỉ định nhập viện cho đợt cấp BPTNMT\n- Khõ thở nặng\n- Đã có chẩn đoán BPTNMT nặng hoặc rất\nnặng\n- Xuất hiện các dấu hiệu thức thể mỡi: tím môi,\nđầu ch",
+      "context_ids": [
+        "paragraph-p72-0000"
+      ],
+      "hit1": false,
+      "hit3": false,
+      "context_hit": false,
+      "latency_ms": 2.605300000141142
+    }
+  ],
+  "query_transformation": [
+    {
+      "query_id": "q16",
+      "split": "test",
+      "question": "Đợt cấp bệnh phổi tắc nghẽn mạn tính (BPTNMT) được định nghĩa như thế nào?",
+      "method": "query_transformation",
+      "top_k": 3,
+      "budget": 1200,
+      "gold": [
+        {
+          "source_id": "byt-benh-ho-hap-2012",
+          "page": 68,
+          "evidence": "Đợt cấp bệnh phổi tắc nghẽn mạn tính (BPTNMT, COPD) là tình trạng\nthay đổi cấp tính của các biểu hiện lâm sàng: khõ thở t ăng, ho tăng, khạc đờm\ntăng"
+        }
+      ],
+      "results": [
+        {
+          "id": "paragraph-p74-0002",
+          "text": "ư Giãn phế quản đợt bội nhiễm: tiền sử ho khạc đờm kéo dài, kh ám phổi\nthấy ran ẩm, nổ khu trú hoặc lan tóa hai bên phổi. Chẩn đoán phân biệt bằng\nchụp cắt lỡp vi tính ngức lỡp móng, độ phân giải cao.\nư Tràn khí màng phổi: đau ngức đột ngột, khõ thở tăng. Khá m phổi thấy\ntam chứng Gaillard bên tràn khí. Chẩn đoán xác định b ằng chụp X-quang phổi\nthấy hình tràn khí màng phổi.\n2.4. Chẩn đoán mực độ\nBảng 11.2: Phân loại mực độ nặng của đợt cấp BPTNMT theo Burge S (2003)\nMực độ Tiêu chí\nNhẹ Cần dùng kháng sinh, không cần corticoid toàn t hân. Không có dấu hiệu suy\nhô hấp trên lâm sàng và/hoặc khí máu.\nTrung bình Đợt cấp cần điều trị corticoid đường tĩn h mạch, có hoặc không kháng sinh.\nKhông có dấu hiệu suy hô hấp trên lâm sàng và/hoặc khí máu.\nNặng Suy hô hấp với giảm oxy máu, nhưng không tăn",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 74,
+          "metadata": {
+            "disease": "Đợt cấp COPD",
+            "page": 74,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 2,
+            "char_start": 1220,
+            "char_end": 2020,
+            "strategy": "B"
+          },
+          "score": 0.8606199622154236,
+          "retrieval_method": "dense",
+          "hit": false
+        },
+        {
+          "id": "paragraph-p69-0000",
+          "text": "hướng dẫn chẩn đoán và điều trị bệnh hô hấp 69\n2.2. Các đánh giá ban đầu khi nghi có đợt cấp BPTNMT\nTiến hành làm các xét nghiệm (nếu có thể): chụp X-quang phổi, đo SpO2,\nđo PEF hoặc chức năng hô hấp.\n2.3. Chẩn đoán xác định đợt cấp BPTNMT\nTiêu chuẩn Anthonisen.\nư Khõ thở tăng.\nư Khạc đờm tăng.\nư Thay đổi màu sắc của đờm.\n2.4. Đánh giá mực độ nặng của bệnh\nCác yếu tố làm tăng mực độ nặng của đợt cấp BPTNMT tại nhà.\nư Rối loạn ý thức.\nư Cõ ≥ 3 đợt cấp BPTNMT trong năm trưỡc.\nư Chỉ số khối cơ thể ≤ 20.\nư Các triệu chứng nặng lên râ hoặc có rối loạn dấu hiệu chức năng sống.\nư Bệnh mạn tính kèm theo (bệnh tim thiếu máu cục bộ, suy tim sung\nhuyết, viêm phổi, đái tháo đường, suy thận, suy gan).\nư Hoạt động thể lức kém.\nư Không có trợ giúp xã hội.\nư Đã được chẩn đoán BPTNMT mực độ nặng hoặc rất n",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 69,
+          "metadata": {
+            "disease": "Đợt cấp COPD",
+            "page": 69,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 0,
+            "char_start": 0,
+            "char_end": 800,
+            "strategy": "B"
+          },
+          "score": 0.8601299524307251,
+          "retrieval_method": "dense",
+          "hit": false
+        },
+        {
+          "id": "paragraph-p73-0000",
+          "text": "hướng dẫn chẩn đoán và điều trị bệnh hô hấp 73\nHướng dẫn chẩn đoán và điều trị đợt cấp\nbệnh phổi tắc nghẽn mạn tính tại các khoa nội\n1. Đại cương\nĐợt cấp bệnh phổi tắc nghẽn mạn tính (BPTNMT, COPD) được chia thành\nnhiều mực độ nặng khác nhau. Những trường hợp đợt cấp mự c độ nhẹ thường\nkiểm soát bằng tăng các điều trị hàng ngày. Khi bệnh n ặng hơn, hoặc có dấu\nhiệu nhiễm trùng (đợt cấp mực độ trung bình) thường cần dùng thêm kháng\nsinh và/hoặc corticoid đường uống. Nếu đợt cấp kèm thêm một hoặc nhiều dấu\nhiệu sau (tham khảo thêm bảng 11):\nư Cõ biểu hiện suy hô hấp trên lâm sàng (đợt cấp BPTNMT mực độ nặng).\nư Không đáp ựng với điều trị ban đầu.\nư Cõ bệnh mạn tính nặng kèm theo: bệnh gan, thận, tim mạch.\nư Không có hỗ trợ từ phía gia đình.\nChỉ định nhập viện điều trị tại khoa nội hoặc khoa ",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 73,
+          "metadata": {
+            "disease": "Đợt cấp COPD",
+            "page": 73,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 0,
+            "char_start": 0,
+            "char_end": 800,
+            "strategy": "B"
+          },
+          "score": 0.8515294790267944,
+          "retrieval_method": "dense",
+          "hit": false
+        }
+      ],
+      "context": "[paragraph-p74-0002 | Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf | page 74]\nư Giãn phế quản đợt bội nhiễm: tiền sử ho khạc đờm kéo dài, kh ám phổi\nthấy ran ẩm, nổ khu trú hoặc lan tóa hai bên phổi. Chẩn đoán phân biệt bằng\nchụp cắt lỡp vi tính ngức lỡp móng, độ phân giải cao.\nư Tràn khí màng phổi: đau ngức đột ngột, khõ thở tăng. Khá m phổi thấy\ntam chứng Gaillard bên tràn khí. Chẩn đoán xác định b ằng chụp X-quang phổi\nthấy hình tràn khí màng phổi.\n2.4. Chẩn đoán mực độ\nBảng 11.2: Phân loại mực độ nặng của đợt cấp BPTNMT theo Burge S (2003)\nMực độ Tiêu chí\nNhẹ Cần dùng kháng sinh, không cần corticoid toàn t hân. Không có dấu hiệu suy\nhô hấp trên lâm sàng và/hoặc khí máu.\nTrung bình Đợt cấp cần điều trị corticoid đường tĩn h mạch, có hoặc không kháng sinh.\nKhông có dấu hiệu suy hô hấp trên lâm sàng và/hoặc khí máu.\nNặng Suy hô hấp với giảm oxy máu, nhưng không tăn",
+      "context_ids": [
+        "paragraph-p74-0002"
+      ],
+      "hit1": false,
+      "hit3": false,
+      "context_hit": false,
+      "latency_ms": 178.0505999995512,
+      "transformation": {
+        "raw_query": "Đợt cấp bệnh phổi tắc nghẽn mạn tính (BPTNMT) được định nghĩa như thế nào?",
+        "transformed_query": "Đợt cấp bệnh phổi tắc nghẽn mạn tính (BPTNMT)"
+      }
+    },
+    {
+      "query_id": "q17",
+      "split": "test",
+      "question": "Tiêu chuẩn Anthonisen xác định đợt cấp BPTNMT gồm những triệu chứng nào?",
+      "method": "query_transformation",
+      "top_k": 3,
+      "budget": 1200,
+      "gold": [
+        {
+          "source_id": "byt-benh-ho-hap-2012",
+          "page": 69,
+          "evidence": "Tiêu chuẩn Anthonisen.\nư Khõ thở tăng.\nư Khạc đờm tăng.\nư Thay đổi màu sắc của đờm"
+        }
+      ],
+      "results": [
+        {
+          "id": "paragraph-p69-0000",
+          "text": "hướng dẫn chẩn đoán và điều trị bệnh hô hấp 69\n2.2. Các đánh giá ban đầu khi nghi có đợt cấp BPTNMT\nTiến hành làm các xét nghiệm (nếu có thể): chụp X-quang phổi, đo SpO2,\nđo PEF hoặc chức năng hô hấp.\n2.3. Chẩn đoán xác định đợt cấp BPTNMT\nTiêu chuẩn Anthonisen.\nư Khõ thở tăng.\nư Khạc đờm tăng.\nư Thay đổi màu sắc của đờm.\n2.4. Đánh giá mực độ nặng của bệnh\nCác yếu tố làm tăng mực độ nặng của đợt cấp BPTNMT tại nhà.\nư Rối loạn ý thức.\nư Cõ ≥ 3 đợt cấp BPTNMT trong năm trưỡc.\nư Chỉ số khối cơ thể ≤ 20.\nư Các triệu chứng nặng lên râ hoặc có rối loạn dấu hiệu chức năng sống.\nư Bệnh mạn tính kèm theo (bệnh tim thiếu máu cục bộ, suy tim sung\nhuyết, viêm phổi, đái tháo đường, suy thận, suy gan).\nư Hoạt động thể lức kém.\nư Không có trợ giúp xã hội.\nư Đã được chẩn đoán BPTNMT mực độ nặng hoặc rất n",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 69,
+          "metadata": {
+            "disease": "Đợt cấp COPD",
+            "page": 69,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 0,
+            "char_start": 0,
+            "char_end": 800,
+            "strategy": "B"
+          },
+          "score": 0.8340562582015991,
+          "retrieval_method": "dense",
+          "hit": true
+        },
+        {
+          "id": "paragraph-p61-0000",
+          "text": "hướng dẫn chẩn đoán và điều trị bệnh hô hấp 61\nMức độ tấc nghẽn đường thở\n2.3.3. Chẩn đoán mực độ nặng của bệnh theo chức năng hô hấp và điểm triệu\nchứng lâm sàng\nBảng 9.3: Mực độ nặng BPTNMT theo chức năng thông khí, triệu chứng lâm sàng\nKhi đánh giá nguy cơ chọn nhõm nguy cơ cao nhất\ntheo tiêu chuẩn của GOLD hoặc tiền sử đợt cấp\n\n(C)\n\n(D)\n\n(A)\n\n(B)",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 61,
+          "metadata": {
+            "disease": "COPD ổn định",
+            "page": 61,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 0,
+            "char_start": 0,
+            "char_end": 352,
+            "strategy": "B"
+          },
+          "score": 0.7798371315002441,
+          "retrieval_method": "dense",
+          "hit": false
+        },
+        {
+          "id": "paragraph-p74-0002",
+          "text": "ư Giãn phế quản đợt bội nhiễm: tiền sử ho khạc đờm kéo dài, kh ám phổi\nthấy ran ẩm, nổ khu trú hoặc lan tóa hai bên phổi. Chẩn đoán phân biệt bằng\nchụp cắt lỡp vi tính ngức lỡp móng, độ phân giải cao.\nư Tràn khí màng phổi: đau ngức đột ngột, khõ thở tăng. Khá m phổi thấy\ntam chứng Gaillard bên tràn khí. Chẩn đoán xác định b ằng chụp X-quang phổi\nthấy hình tràn khí màng phổi.\n2.4. Chẩn đoán mực độ\nBảng 11.2: Phân loại mực độ nặng của đợt cấp BPTNMT theo Burge S (2003)\nMực độ Tiêu chí\nNhẹ Cần dùng kháng sinh, không cần corticoid toàn t hân. Không có dấu hiệu suy\nhô hấp trên lâm sàng và/hoặc khí máu.\nTrung bình Đợt cấp cần điều trị corticoid đường tĩn h mạch, có hoặc không kháng sinh.\nKhông có dấu hiệu suy hô hấp trên lâm sàng và/hoặc khí máu.\nNặng Suy hô hấp với giảm oxy máu, nhưng không tăn",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 74,
+          "metadata": {
+            "disease": "Đợt cấp COPD",
+            "page": 74,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 2,
+            "char_start": 1220,
+            "char_end": 2020,
+            "strategy": "B"
+          },
+          "score": 0.7643899321556091,
+          "retrieval_method": "dense",
+          "hit": false
+        }
+      ],
+      "context": "[paragraph-p69-0000 | Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf | page 69]\nhướng dẫn chẩn đoán và điều trị bệnh hô hấp 69\n2.2. Các đánh giá ban đầu khi nghi có đợt cấp BPTNMT\nTiến hành làm các xét nghiệm (nếu có thể): chụp X-quang phổi, đo SpO2,\nđo PEF hoặc chức năng hô hấp.\n2.3. Chẩn đoán xác định đợt cấp BPTNMT\nTiêu chuẩn Anthonisen.\nư Khõ thở tăng.\nư Khạc đờm tăng.\nư Thay đổi màu sắc của đờm.\n2.4. Đánh giá mực độ nặng của bệnh\nCác yếu tố làm tăng mực độ nặng của đợt cấp BPTNMT tại nhà.\nư Rối loạn ý thức.\nư Cõ ≥ 3 đợt cấp BPTNMT trong năm trưỡc.\nư Chỉ số khối cơ thể ≤ 20.\nư Các triệu chứng nặng lên râ hoặc có rối loạn dấu hiệu chức năng sống.\nư Bệnh mạn tính kèm theo (bệnh tim thiếu máu cục bộ, suy tim sung\nhuyết, viêm phổi, đái tháo đường, suy thận, suy gan).\nư Hoạt động thể lức kém.\nư Không có trợ giúp xã hội.\nư Đã được chẩn đoán BPTNMT mực độ nặng hoặc rất n",
+      "context_ids": [
+        "paragraph-p69-0000"
+      ],
+      "hit1": true,
+      "hit3": true,
+      "context_hit": true,
+      "latency_ms": 175.897500001156,
+      "transformation": {
+        "raw_query": "Tiêu chuẩn Anthonisen xác định đợt cấp BPTNMT gồm những triệu chứng nào?",
+        "transformed_query": "Tiêu chuẩn Anthonisen xác định đợt cấp BPTNMT gồm những triệu chứng nào?"
+      }
+    },
+    {
+      "query_id": "q18",
+      "split": "test",
+      "question": "Nguyên tắc điều trị đợt cấp BPTNMT tại nhà đối với thuốc giãn phế quản và corticoid là gì?",
+      "method": "query_transformation",
+      "top_k": 3,
+      "budget": 1200,
+      "gold": [
+        {
+          "source_id": "byt-benh-ho-hap-2012",
+          "page": 71,
+          "evidence": "Tăng tối đa điều trị các thuốc giãn phế quản và corticoid dạng khí dung"
+        }
+      ],
+      "results": [
+        {
+          "id": "paragraph-p70-0000",
+          "text": "Hướng dẫn chẩn đoán và điều trị bệnh hô hấp 70\n3. Điều trị đợt cấp bptnmt tại nhà\n3.1. Hưỡng xử trí đợt cấp BPTNMT\nSơ đồ 1: Hướng dẫn xử trí đợt cấp BPTNMT\n\nBắt đầu hoặc gia tăng thuốc\ngiãn phế quản\nĐánh giá lại trong 1-3 giờ\nCải thiện triệu chứng\nKhông cải thiện triệu chứng\nTiếp tục điều trị\nGiảm liều thuốc khi có thể\nThêm corticoid uống\nĐánh giá lại trong 1-3 giờ\nTriệu chứng nặng thêm\nNhập viện Xem xét điều trị dài\nhạn\nKhi đã xác định đợt cấp\nhttps://vnras.com/",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 70,
+          "metadata": {
+            "disease": "Đợt cấp COPD",
+            "page": 70,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 0,
+            "char_start": 0,
+            "char_end": 467,
+            "strategy": "B"
+          },
+          "score": 0.8635616302490234,
+          "retrieval_method": "dense",
+          "hit": false
+        },
+        {
+          "id": "paragraph-p66-0002",
+          "text": "hun\nhít, sử dụng các thuốc giãn phế quản, corticoid.\n4. Tiên lượng và phòng bệnh\nư BPTNMT tiến triển nặng dần không hồi phục, vì vậy, cần điều trị sỡm,\ntích cức để bệnh tiến triển chậm.\nhttps://vnras.com/",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 66,
+          "metadata": {
+            "disease": "COPD ổn định",
+            "page": 66,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 2,
+            "char_start": 1180,
+            "char_end": 1384,
+            "strategy": "B"
+          },
+          "score": 0.8425153493881226,
+          "retrieval_method": "dense",
+          "hit": false
+        },
+        {
+          "id": "paragraph-p75-0000",
+          "text": "hướng dẫn chẩn đoán và điều trị bệnh hô hấp 75\nChỉ định nhập viện điều trị với tất cả những trường hợp đợt cấp BPTNMT\nmực độ nặng, rất nặng hoặc có đe dọa cuộc sống.\n3. Điều trị\n3.1. Hàm lượng và đường dùng của các thuốc giãn phế quản\nXem bảng 9.6 - phần hướng dẫn chẩn đoán và điều trị BPTNMT giai\nđoạn ổn định.\n3.2. Điều trị đợt cấp mực độ nhẹ\nư Điều trị và tăng (nếu cần) liều thuốc giãn phế quản phun hít đến 4-6\nlần/ngày.\nư Dùng thuốc giãn phế quản đường uống nếu không có thuốc đư ờng hít:\nsalbutamol 4 mg x 4 viên/ngày chia 4 lần hoặc terbutalin 2,5 mg x 4 viên/ngày.\nư Prednisolon uống 1mg/kg/ngày.\nư Kháng sinh chỉ định khi có dấu hiệu nhiễm trùng: be talactam/kháng\nbetalactamase (amoxillin/acid clavunalic; ampicillin/sulbactam): 3 g/ngày hoặc\ncefuroxim: 2 g/ngày hoặc moxifloxacin: 400 mg",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 75,
+          "metadata": {
+            "disease": "Đợt cấp COPD",
+            "page": 75,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 0,
+            "char_start": 0,
+            "char_end": 800,
+            "strategy": "B"
+          },
+          "score": 0.8331257700920105,
+          "retrieval_method": "dense",
+          "hit": false
+        }
+      ],
+      "context": "[paragraph-p70-0000 | Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf | page 70]\nHướng dẫn chẩn đoán và điều trị bệnh hô hấp 70\n3. Điều trị đợt cấp bptnmt tại nhà\n3.1. Hưỡng xử trí đợt cấp BPTNMT\nSơ đồ 1: Hướng dẫn xử trí đợt cấp BPTNMT\n\nBắt đầu hoặc gia tăng thuốc\ngiãn phế quản\nĐánh giá lại trong 1-3 giờ\nCải thiện triệu chứng\nKhông cải thiện triệu chứng\nTiếp tục điều trị\nGiảm liều thuốc khi có thể\nThêm corticoid uống\nĐánh giá lại trong 1-3 giờ\nTriệu chứng nặng thêm\nNhập viện Xem xét điều trị dài\nhạn\nKhi đã xác định đợt cấp\nhttps://vnras.com/\n\n[paragraph-p66-0002 | Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf | page 66]\nhun\nhít, sử dụng các thuốc giãn phế quản, corticoid.\n4. Tiên lượng và phòng bệnh\nư BPTNMT tiến triển nặng dần không hồi phục, vì vậy, cần điều trị sỡm,\ntích cức để bệnh tiến triển chậm.\nhttps://vnras.com/",
+      "context_ids": [
+        "paragraph-p70-0000",
+        "paragraph-p66-0002"
+      ],
+      "hit1": false,
+      "hit3": false,
+      "context_hit": false,
+      "latency_ms": 220.27230000094278,
+      "transformation": {
+        "raw_query": "Nguyên tắc điều trị đợt cấp BPTNMT tại nhà đối với thuốc giãn phế quản và corticoid là gì?",
+        "transformed_query": "Nguyên tắc điều trị đợt cấp BPTNMT tại nhà đối với thuốc giãn phế quản và corticoid hướng xử trí phác đồ điều trị tự khỏi toàn thân prednisolon methylprednisolon"
+      }
+    },
+    {
+      "query_id": "q19",
+      "split": "test",
+      "question": "Mục tiêu SpO2 và lưu lượng thở oxy tại nhà trong đợt cấp BPTNMT là bao nhiêu?",
+      "method": "query_transformation",
+      "top_k": 3,
+      "budget": 1200,
+      "gold": [
+        {
+          "source_id": "byt-benh-ho-hap-2012",
+          "page": 71,
+          "evidence": "Thở oxy 1-3 lít/phút, duy trì SpO2 ở mực 90-92"
+        }
+      ],
+      "results": [
+        {
+          "id": "paragraph-p64-0001",
+          "text": "thời gian thở oxy:\nư 1-3 l/phút và sẽ điều chỉnh theo khí máu (để tránh tăng CO2 máu quá\nmực khuyến cáo nên bắt đầu với lưu lượng thở oxy ≤ 2 lít/phút). Điều chỉnh lưu\nlượng oxy để đạt PaO 2 từ 65 -70 mmHg, tương ựng với SaO 2 tối ưu là 90-95%\nlúc nghỉ ngơi. Thời gian thở oxy ít nhất 15 giờ/24 giờ.\n3.3.3. Các nguồn oxy\nư Các bình khí cổ điển: cồng kềnh và phải nạp thường xuyên.\nư Các máy chiết xuất oxy thuận tiện cho các bệnh nhân ít hoạt động.\nNgoài ra, còn có các bình oxy lóng.\n3.4. Phẫu thuật\nHiện đã áp dụng một số phẫu thuật giảm thể tích phổi, cắ t bõng khí phổi\nhoặc thay phổi trong một số trường hợp nhất định.",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 64,
+          "metadata": {
+            "disease": "COPD ổn định",
+            "page": 64,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 1,
+            "char_start": 800,
+            "char_end": 1423,
+            "strategy": "B"
+          },
+          "score": 0.7963792085647583,
+          "retrieval_method": "dense",
+          "hit": false
+        },
+        {
+          "id": "paragraph-p73-0001",
+          "text": "hồi sực còn phụ thuộc\nvào trình độ cán bộ y tế và sự sẵn có của các trang thiết bị.\n2. Chẩn đoán\n2.1. Chẩn đoán xác định\nBệnh nhân đã được chẩn đoán BPTNMT đột nhiên xuất hiện một hoặc\nnhiều dấu hiệu:\nư Khõ thở tăng.\nư Khạc đờm tăng.\nư Thay đổi màu sắc của đờm.\nCác biểu hiện khác có thể có bao gồm: sốt, rối loạn ý thức , tiểu ít, tím môi,\ngiảm hoạt động...\n2.2. Chẩn đoán nguyên nhân gây đợt cấp\nư Nguyên nhân trức tiếp thường gặp nhất gây đợt cấp là n hiễm trùng khí\nphế quản phổi cấp do virus hoặc vi khuẩn (các vi khuẩn thường gặp là\nStreptococcus pneumonia, Hemophilus influenza và Moraxella catarrhalis).\nư Các nguyên nhân khác: nhiễm lạnh, bụi ô nhiễm, khói khí độc.\nư Không râ nguyên nhân: 1/3 các trường hợp.\n2.3. Chẩn đoán phân biệt\nhttps://vnras.com/",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 73,
+          "metadata": {
+            "disease": "Đợt cấp COPD",
+            "page": 73,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 1,
+            "char_start": 800,
+            "char_end": 1562,
+            "strategy": "B"
+          },
+          "score": 0.7865622043609619,
+          "retrieval_method": "dense",
+          "hit": false
+        },
+        {
+          "id": "paragraph-p61-0000",
+          "text": "hướng dẫn chẩn đoán và điều trị bệnh hô hấp 61\nMức độ tấc nghẽn đường thở\n2.3.3. Chẩn đoán mực độ nặng của bệnh theo chức năng hô hấp và điểm triệu\nchứng lâm sàng\nBảng 9.3: Mực độ nặng BPTNMT theo chức năng thông khí, triệu chứng lâm sàng\nKhi đánh giá nguy cơ chọn nhõm nguy cơ cao nhất\ntheo tiêu chuẩn của GOLD hoặc tiền sử đợt cấp\n\n(C)\n\n(D)\n\n(A)\n\n(B)",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 61,
+          "metadata": {
+            "disease": "COPD ổn định",
+            "page": 61,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 0,
+            "char_start": 0,
+            "char_end": 352,
+            "strategy": "B"
+          },
+          "score": 0.7861381769180298,
+          "retrieval_method": "dense",
+          "hit": false
+        }
+      ],
+      "context": "[paragraph-p64-0001 | Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf | page 64]\nthời gian thở oxy:\nư 1-3 l/phút và sẽ điều chỉnh theo khí máu (để tránh tăng CO2 máu quá\nmực khuyến cáo nên bắt đầu với lưu lượng thở oxy ≤ 2 lít/phút). Điều chỉnh lưu\nlượng oxy để đạt PaO 2 từ 65 -70 mmHg, tương ựng với SaO 2 tối ưu là 90-95%\nlúc nghỉ ngơi. Thời gian thở oxy ít nhất 15 giờ/24 giờ.\n3.3.3. Các nguồn oxy\nư Các bình khí cổ điển: cồng kềnh và phải nạp thường xuyên.\nư Các máy chiết xuất oxy thuận tiện cho các bệnh nhân ít hoạt động.\nNgoài ra, còn có các bình oxy lóng.\n3.4. Phẫu thuật\nHiện đã áp dụng một số phẫu thuật giảm thể tích phổi, cắ t bõng khí phổi\nhoặc thay phổi trong một số trường hợp nhất định.\n\n[paragraph-p61-0000 | Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf | page 61]\nhướng dẫn chẩn đoán và điều trị bệnh hô hấp 61\nMức độ tấc nghẽn đường thở\n2.3.3. Chẩn đoán mực độ nặng của bệnh theo chức năng hô hấp và điểm triệu\nchứng lâm sàng\nBảng 9.3: Mực độ nặng BPTNMT theo chức năng thông khí, triệu chứng lâm sàng\nKhi đánh giá nguy cơ chọn nhõm nguy cơ cao nhất\ntheo tiêu chuẩn của GOLD hoặc tiền sử đợt cấp\n\n(C)\n\n(D)\n\n(A)\n\n(B)",
+      "context_ids": [
+        "paragraph-p64-0001",
+        "paragraph-p61-0000"
+      ],
+      "hit1": false,
+      "hit3": false,
+      "context_hit": false,
+      "latency_ms": 212.4246999992465,
+      "transformation": {
+        "raw_query": "Mục tiêu SpO2 và lưu lượng thở oxy tại nhà trong đợt cấp BPTNMT là bao nhiêu?",
+        "transformed_query": "Mục tiêu SpO2 và lưu lượng thở oxy tại nhà trong đợt cấp BPTNMT là lưu lượng gọng kính spo2 khí máu động mạch paio2"
+      }
+    },
+    {
+      "query_id": "q20",
+      "split": "test",
+      "question": "Chỉ định nhập viện điều trị đối với bệnh nhân đợt cấp BPTNMT khi nào?",
+      "method": "query_transformation",
+      "top_k": 3,
+      "budget": 1200,
+      "gold": [
+        {
+          "source_id": "byt-benh-ho-hap-2012",
+          "page": 75,
+          "evidence": "Chỉ định nhập viện điều trị với tất cả những trường hợp đợt cấp BPTNMT\nmực độ nặng, rất nặng hoặc có đe dọa cuộc sống"
+        }
+      ],
+      "results": [
+        {
+          "id": "paragraph-p70-0000",
+          "text": "Hướng dẫn chẩn đoán và điều trị bệnh hô hấp 70\n3. Điều trị đợt cấp bptnmt tại nhà\n3.1. Hưỡng xử trí đợt cấp BPTNMT\nSơ đồ 1: Hướng dẫn xử trí đợt cấp BPTNMT\n\nBắt đầu hoặc gia tăng thuốc\ngiãn phế quản\nĐánh giá lại trong 1-3 giờ\nCải thiện triệu chứng\nKhông cải thiện triệu chứng\nTiếp tục điều trị\nGiảm liều thuốc khi có thể\nThêm corticoid uống\nĐánh giá lại trong 1-3 giờ\nTriệu chứng nặng thêm\nNhập viện Xem xét điều trị dài\nhạn\nKhi đã xác định đợt cấp\nhttps://vnras.com/",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 70,
+          "metadata": {
+            "disease": "Đợt cấp COPD",
+            "page": 70,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 0,
+            "char_start": 0,
+            "char_end": 467,
+            "strategy": "B"
+          },
+          "score": 0.8232153654098511,
+          "retrieval_method": "dense",
+          "hit": false
+        },
+        {
+          "id": "paragraph-p69-0000",
+          "text": "hướng dẫn chẩn đoán và điều trị bệnh hô hấp 69\n2.2. Các đánh giá ban đầu khi nghi có đợt cấp BPTNMT\nTiến hành làm các xét nghiệm (nếu có thể): chụp X-quang phổi, đo SpO2,\nđo PEF hoặc chức năng hô hấp.\n2.3. Chẩn đoán xác định đợt cấp BPTNMT\nTiêu chuẩn Anthonisen.\nư Khõ thở tăng.\nư Khạc đờm tăng.\nư Thay đổi màu sắc của đờm.\n2.4. Đánh giá mực độ nặng của bệnh\nCác yếu tố làm tăng mực độ nặng của đợt cấp BPTNMT tại nhà.\nư Rối loạn ý thức.\nư Cõ ≥ 3 đợt cấp BPTNMT trong năm trưỡc.\nư Chỉ số khối cơ thể ≤ 20.\nư Các triệu chứng nặng lên râ hoặc có rối loạn dấu hiệu chức năng sống.\nư Bệnh mạn tính kèm theo (bệnh tim thiếu máu cục bộ, suy tim sung\nhuyết, viêm phổi, đái tháo đường, suy thận, suy gan).\nư Hoạt động thể lức kém.\nư Không có trợ giúp xã hội.\nư Đã được chẩn đoán BPTNMT mực độ nặng hoặc rất n",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 69,
+          "metadata": {
+            "disease": "Đợt cấp COPD",
+            "page": 69,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 0,
+            "char_start": 0,
+            "char_end": 800,
+            "strategy": "B"
+          },
+          "score": 0.8103125095367432,
+          "retrieval_method": "dense",
+          "hit": false
+        },
+        {
+          "id": "paragraph-p72-0000",
+          "text": "Hướng dẫn chẩn đoán và điều trị bệnh hô hấp 72\nư Nên sử dụng một trong các thuốc sau, hoặc có thể kết hợp 2 thuốc thuộc\n2 nhõm khác nhau:\n+ Nhõm betalactam: ampicillin/amoxillin + kháng betalacta mase: liều\n3g/ngày, chia 3 lần; hoặc dùng cefuroxim: liều 2 g/ngà y, uống chia 4 lần; hoặc\ndùng: ampicillin/amoxillin/cephalexin: liều 3 g/ngày, chia 3 lần.\n+ Levofloxacin 750 mg/ngày, moxifloxacin 400 mg/ngày, cip rofloxacin\n1g/ngày.\n3.4. Theo dâi và chỉ định bệnh nhân nhập viện điều trị\nCác trường hợp đợt cấp BPTNMT nhẹ thường được chỉ định điều trị tại nhà.\nCần chỉ định nhập viện cho các bệnh nhân này khi có 1 hoặc nhiều dấu hiệu sau:\nBảng 10.3: Chỉ định nhập viện cho đợt cấp BPTNMT\n- Khõ thở nặng\n- Đã có chẩn đoán BPTNMT nặng hoặc rất\nnặng\n- Xuất hiện các dấu hiệu thức thể mỡi: tím môi,\nđầu ch",
+          "source_id": "byt-benh-ho-hap-2012",
+          "source": "Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf",
+          "page": 72,
+          "metadata": {
+            "disease": "Đợt cấp COPD",
+            "page": 72,
+            "empty": false,
+            "chunking": "paragraph",
+            "chunk_index": 0,
+            "char_start": 0,
+            "char_end": 800,
+            "strategy": "B"
+          },
+          "score": 0.8098219633102417,
+          "retrieval_method": "dense",
+          "hit": false
+        }
+      ],
+      "context": "[paragraph-p70-0000 | Huong-dan-chan-doan-va-dieu-tri-benh-ho-hap-theo-Bo-Y-te-vnras.pdf | page 70]\nHướng dẫn chẩn đoán và điều trị bệnh hô hấp 70\n3. Điều trị đợt cấp bptnmt tại nhà\n3.1. Hưỡng xử trí đợt cấp BPTNMT\nSơ đồ 1: Hướng dẫn xử trí đợt cấp BPTNMT\n\nBắt đầu hoặc gia tăng thuốc\ngiãn phế quản\nĐánh giá lại trong 1-3 giờ\nCải thiện triệu chứng\nKhông cải thiện triệu chứng\nTiếp tục điều trị\nGiảm liều thuốc khi có thể\nThêm corticoid uống\nĐánh giá lại trong 1-3 giờ\nTriệu chứng nặng thêm\nNhập viện Xem xét điều trị dài\nhạn\nKhi đã xác định đợt cấp\nhttps://vnras.com/",
+      "context_ids": [
+        "paragraph-p70-0000"
+      ],
+      "hit1": false,
+      "hit3": false,
+      "context_hit": false,
+      "latency_ms": 178.78969999947003,
+      "transformation": {
+        "raw_query": "Chỉ định nhập viện điều trị đối với bệnh nhân đợt cấp BPTNMT khi nào?",
+        "transformed_query": "Chỉ định nhập viện điều trị đối với bệnh nhân đợt cấp BPTNMT khi nào?"
+      }
+    }
+  ]
+}

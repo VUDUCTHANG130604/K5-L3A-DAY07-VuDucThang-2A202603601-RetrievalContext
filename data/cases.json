@@ -1,0 +1,174 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "Viêm phế quản cấp được định nghĩa như thế nào trong hướng dẫn của Bộ Y tế?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Nguyên tắc điều trị ở người lớn bị viêm phế quản cấp đơn thuần là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Biện pháp phòng ngừa nào được khuyến cáo mạnh cho người bệnh có bệnh phổi mạn tính?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Viêm phổi mắc phải ở cộng đồng là tình trạng bệnh lý như thế nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Hình ảnh tổn thương điển hình của viêm phổi thùy trên X-quang phổi là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Nguyên tắc lựa chọn điều trị nguyên nhân trong viêm phổi mắc phải ở cộng đồng là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Liều dùng của cefotaxim trong điều trị viêm phổi cộng đồng là bao nhiêu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Viêm phổi mắc phải ở bệnh viện (HAP) được định nghĩa xuất hiện vào thời điểm nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Những yếu tố nguy cơ nào làm tăng khả năng mắc viêm phổi bệnh viện?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Chỉ định dùng thuốc hạ sốt paracetamol trong viêm phổi bệnh viện như thế nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "Áp xe phổi được định nghĩa như thế nào trong hướng dẫn của Bộ Y tế?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Các tác nhân vi khuẩn thường gặp gây áp xe phổi bao gồm những loại nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Liều dùng ceftazidim khi nghi ngờ áp xe phổi do Pseudomonas aeruginosa là bao nhiêu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "Đặc trưng bệnh lý của bệnh phổi tắc nghẽn mạn tính (BPTNMT, COPD) là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Corticoid được chỉ định trong điều trị bệnh phổi tắc nghẽn mạn tính khi nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "Đợt cấp bệnh phổi tắc nghẽn mạn tính (BPTNMT) được định nghĩa như thế nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "Tiêu chuẩn Anthonisen xác định đợt cấp BPTNMT gồm những triệu chứng nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "Nguyên tắc điều trị đợt cấp BPTNMT tại nhà đối với thuốc giãn phế quản và corticoid là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "Mục tiêu SpO2 và lưu lượng thở oxy tại nhà trong đợt cấp BPTNMT là bao nhiêu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "Chỉ định nhập viện điều trị đối với bệnh nhân đợt cấp BPTNMT khi nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q_unans_dev_01",
+    "split": "dev",
+    "question": "Liều dùng và phác đồ sử dụng thuốc kháng virus Remdesivir trong điều trị viêm phổi do SARS-CoV-2 (COVID-19) được hướng dẫn như thế nào?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu ban hành năm 2012 theo QĐ 4235/QĐ-BYT, trước khi đại dịch COVID-19 xuất hiện, nên hoàn toàn không chứa thông tin về SARS-CoV-2 hay Remdesivir."
+  },
+  {
+    "id": "q_unans_dev_02",
+    "split": "dev",
+    "question": "Quy trình và kỹ thuật phẫu thuật nội soi lồng ngực cắt thùy phổi trong điều trị ung thư phổi không tế bào nhỏ được thực hiện ra sao?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Phạm vi tài liệu trích xuất (trang 30-75) chỉ bao gồm các bệnh hô hấp nhiễm khuẩn và COPD, không chứa nội dung phẫu thuật lồng ngực hay điều trị ung thư phổi."
+  },
+  {
+    "id": "q_unans_test_01",
+    "split": "test",
+    "question": "Thời gian cách ly và phác đồ điều trị bệnh lao phổi kháng đa thuốc (MDR-TB) theo chương trình chống lao quốc gia là gì?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Các chương từ trang 30-75 không bao gồm bệnh lao kháng đa thuốc; bệnh này thuộc hướng dẫn chuyên biệt của Chương trình Chống lao Quốc gia."
+  },
+  {
+    "id": "q_unans_test_02",
+    "split": "test",
+    "question": "Chỉ định và tiêu chuẩn lựa chọn bệnh nhân ghép phổi đối với bệnh nhân COPD giai đoạn cuối theo hướng dẫn Bộ Y tế năm 2012 là gì?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Trong nội dung COPD (trang 58-75), tài liệu chỉ đề cập đến điều trị nội khoa, thở oxy, thông khí hỗ trợ và phục hồi chức năng, hoàn toàn không có hướng dẫn ghép phổi."
+  }
+]

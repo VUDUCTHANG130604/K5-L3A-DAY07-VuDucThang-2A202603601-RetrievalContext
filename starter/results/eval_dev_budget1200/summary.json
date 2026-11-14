@@ -1,0 +1,50 @@
+{
+  "dense": {
+    "method": "dense",
+    "method_name": "Dense Retrieval (EmbeddingGemma-2)",
+    "split": "dev",
+    "N": 15,
+    "budget": 1200,
+    "hit1": 6,
+    "hit1_rate": 0.4,
+    "hit3": 8,
+    "hit3_rate": 0.5333,
+    "context_hit": 6,
+    "context_evidence_rate": 0.4,
+    "avg_context_chars": 845.93,
+    "median_ms": 194.991,
+    "service_cost_usd": 0.0
+  },
+  "bm25": {
+    "method": "bm25",
+    "method_name": "Lexical Retrieval (BM25)",
+    "split": "dev",
+    "N": 15,
+    "budget": 1200,
+    "hit1": 6,
+    "hit1_rate": 0.4,
+    "hit3": 9,
+    "hit3_rate": 0.6,
+    "context_hit": 6,
+    "context_evidence_rate": 0.4,
+    "avg_context_chars": 883.87,
+    "median_ms": 5.063,
+    "service_cost_usd": 0.0
+  },
+  "query_transformation": {
+    "method": "query_transformation",
+    "method_name": "Query Transformation (Medical Expansion + Dense)",
+    "split": "dev",
+    "N": 15,
+    "budget": 1200,
+    "hit1": 7,
+    "hit1_rate": 0.4667,
+    "hit3": 9,
+    "hit3_rate": 0.6,
+    "context_hit": 7,
+    "context_evidence_rate": 0.4667,
+    "avg_context_chars": 917.2,
+    "median_ms": 243.425,
+    "service_cost_usd": 0.0
+  }
+}
